@@ -1,0 +1,3 @@
+/media/PRO/PROJ/getChineseBlushChar/build/CMakeFiles/rebuild_cache.dir
+/media/PRO/PROJ/getChineseBlushChar/build/CMakeFiles/edit_cache.dir
+/media/PRO/PROJ/getChineseBlushChar/build/CMakeFiles/stereo_hwAccel_kitti.dir
