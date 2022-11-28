@@ -396,7 +396,7 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-<div align="center"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
 <div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
 
@@ -432,7 +432,7 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 </div>
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-<div align="center"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
 <div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
 
@@ -470,7 +470,7 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 </div>   
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-<div align="center"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
 <div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
 
