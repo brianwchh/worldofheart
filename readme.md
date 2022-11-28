@@ -54,7 +54,7 @@
 *_落難程序員分享一篇哲學感悟。本不善言辭，花了不少時間，傾盡僅有的文學所能，希望文字能入君心，一起渡人渡己。_*
 
 ![alt text](./md_and_html/images/chenghewu.png)
-*_一張就照片，記錄下落難之前的自己,拍攝於2018年春節於深圳盐田海滨栈道。順帶附上幾首不成詩的文字，理科生書到用時方恨少，請輕輕拍，也歡迎高人來信批評指正，brianwchh@gmai.com 謝謝。_*  
+*_一張舊照片，記錄下落難之前的自己,拍攝於2018年春節於深圳盐田海滨栈道。順帶附上幾首不成詩的文字，理科生書到用時方恨少，請輕輕拍，也歡迎高人來信批評指正，brianwchh@gmai.com 謝謝。_*  
 
 *_前途不知曉，只剩孤獨回憶心間撓，想自由，唱自由，也想清淨田園無人擾，也想如你們，回到過去，安安靜靜，繼續着美麗的創業夢，更想僅剩的青春裏有你，把你畫進我自信的歲月長廊裏。_*  
 
@@ -394,16 +394,24 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 頭枕星辰臥聽曲，  
 朝陽夕陽皆予你。   
 
-</br>
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+
+<div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
+
+   <div style="flex-basics: auto;flex:1;"></div>
+
+
+
+   <image style=" flex:0; width: 70%; max-width: 800px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/moon.png'/>
+
+
+   <div style="flex-basics: auto;flex:1;"></div>
 
 </div>
 
-<!-- ![alt text](./md_and_html/images/moon.png)  -->
-<div align="center">
-  <img style="width: 95%; height: auto;" src="./md_and_html/images/moon.png" />
-</div>
-
-</br>
+</div> <!-- end pictureWrapper_div -->
 
 <div align="center" >
 
@@ -423,15 +431,21 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 
 </div>
 
-</br>
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+
+<div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
+
+   <div style="flex-basics: auto;flex:1;"></div>
 
 
-<!-- ![alt text](./md_and_html/images/sh.png)  -->
-<div align="center">
-  <img style="width: 95%; height: auto;" src="./md_and_html/images/sh.png" />
+
+   <image style=" flex:0; width: 70%; max-width: 800px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/sh.png'/>
+
+
+   <div style="flex-basics: auto;flex:1;"></div>
+
 </div>
-
-</br>
 
 <div align="center" >
 
@@ -455,16 +469,21 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 
 </div>   
 
-</br>
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+
+<div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
+
+   <div style="flex-basics: auto;flex:1;"></div>
 
 
-<!-- ![alt text](./md_and_html/images/lzhd.png)  -->
-<div align="center">
-  <img style="width: 95%; height: auto;" src="./md_and_html/images/lzhd.png" />
+
+   <image style=" flex:0; width: 70%; max-width: 800px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/lzhd.png'/>
+
+
+   <div style="flex-basics: auto;flex:1;"></div>
+
 </div>
-
-
-</br>
 
 ***
  
