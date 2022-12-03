@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>滅自己文化的中國人.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<ul>
+<li><a href="../tableOfContent.md">查看更多文章請點擊此跳轉到博客目錄頁面</a></li>
+</ul>
+<hr>
+<p><strong><strong><p align="center" style="font-size: large;">滅自己文化的中國人</p></strong></strong></p>
+<p align="center" style="font-size: large;">阿柄</p>
+<p>滅掉中國的不是外族，而是滅自己文化、卻又稱自己爲&quot;中國人&quot;的中國人。</p>
+<p>滅一個國家，先滅其文化！而滅其文化，先滅其語言！</p>
+<p>看看‘聰明’的中國人最近百年都在做什麼？ 推廣&quot;ManDaRin&quot;（滿大人），一種滿痞化的、滅掉了韻律和入聲、充斥着屄言屄語的胡言亂語！</p>
+<p>我不對任何人有偏見，只是就事論事！因爲這屄言屄語不屬於任何一個自稱中國人的語言！更不是什麼北方話，北方人的祖上也不講這ManDaRin（滿大人）。這滿大人語言的形成純粹是沒文化的滿清政府胡亂說漢語的結果！</p>
+<p>清政府倒臺之後，喫了幾百年屎的中國人做了什麼選擇？又把滿大人設成國語！中國的正音一直都在，這羣喫屎不忘拉翔人的亡國奴，又把屄言屄語設成了國語！而且一些自稱爲專家的喫屎學者還揚言要滅掉漢字，實現文字拼音化！民國政府喫屎也就算了。如今的中華人民共和國，那個自稱新中國的政府，做得更像滿清朝廷，不僅要學蘇聯拉丁化自己的語言，拉丁化不成，就爲了所謂的迎合中下層痞子，把漢字'簡化'，那些你們所稱的外族沒想過滅中國文化，他們想學，他們寧可滅了自己的文化，融入到中國的文化里，只是智商不夠學成了四不像。這羣自稱新中國的厓山喫翔後裔倒好，自己殘化文字，音不正，字不侖不類，完全繼承了沒文化的拉丁褲化路線，在他們文字的定義里：文字就是爲了喫喝拉撒方便買菜做活塞運動溝通用的！</p>
+<p>這還不夠，這羣亡國奴在滅掉自己文化的路上，把正宗的發音都列成了所謂的方言，學校裏不鼓勵學生使用這些正宗的中國話進行交流！</p>
+<p>中國沒有什麼文化學者，只有喫屎不忘拉翔人的動物。這些東西把存在時間比屄言滿大人悠久的粵語和客家話稱爲方言時，我很懷疑這羣東西是否真的讀過書！</p>
+<p>寧買祖宗田，不忘祖宗言！我們這羣遷徙全世界的明朝亡國奴---客家人都知道把保護中國的語言寫入自己的祖訓！帶着這個使命，我們以螞蟻搬運工的方式保留了中國中州古韻。</p>
+<p>而這些滿口屄言的學者在做啥！？ 說着屄言屄語的滿大人，不遺餘力地繼續滅着中國話！元朝在亂學漢語，清朝在亂學漢語，但當他們把選擇權還給中國人的時候，喫屎不忘拉翔人的“中國人”繼續選擇胡言亂語！</p>
+<hr>
+<p>比對下胡言亂語的官話和所謂的地方話（僅以客家話爲例子）：</p>
+<p>客家話日常用語                        屄語日常用語</p>
+<p>上/當/下晝                    上/中/下午。（午：11:00 - 1300），連韓國人都說午前，午後。<br>
+尋人                    找人<br>
+割禾                    割稻子<br>
+食朝/晝/夜                   喫早/中/晚飯<br>
+上嶺/嶺上                  上山/山上<br>
+其來矣                  他/她來了<br>
+係厓/吾也                  是我呀<br>
+行行踏踏,行上行下                 走來走去，走上走下</p>
+<p>還有很多，只是這些喫屎的政府不支持和珍稀正宗的中國話。一個人的用詞可以體現其教養及修養。一種語言在失去官方雅言的地位時，只能在顛沛流離中靠俚語在頑強地撐着！如果《望春風》和《分飛燕》是中國話中雅的民間代表的話，那很多客家山歌則是《詩經》風的代表。</p>
+<p>在被衆多喫屎的學者稱爲方言的語言中，無論是粵語還是客家話，都比痞子的屄語保留着更多的道地中國文化。</p>
+<p>喫屎幾百年仍不忘拉翔人的亡國奴推廣滿大人就是在滅中國文化！</p>
+<p align="right"> 2022年12月3日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+</div>
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div style="display: flex; flex-direction: row; margin-top: 40px; margin-bottom: 50px;">
+   <div style="flex-basics: auto;flex:1;"></div>
+   <image style=" flex:0; width: 60%; max-width: 500px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/biyu.png'/>
+   <div style="flex-basics: auto;flex:1;"></div>
+</div>
+</div> <!-- end pictureWrapper_div -->
+</body>
+</html>
