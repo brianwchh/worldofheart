@@ -146,11 +146,9 @@
 
       ok，思路有了，無法就是搞一套語法，和compiler商量好，那32bit或64bit二進制數是interface的指針，然後要compiler去生成訪問成員和方法的assembly code.   
 
-      接下來，我們來講講rust是如何實現interface這功能的，不像golang和其他高級語言，有關鍵詞interface。rust是用trait來實現的，即稱之爲trait object,就跟trait的名字一樣怪，背了一輩子的英語單詞，背不完的單詞，一輩子看文章像是離不開英語字典這個尿不溼一樣，我夜懶得去查trait的單詞意思了，哈哈。如果君是學過C++的，其對應的就是純虛擬class，只是裏面只有純虛虛的方法沒有member。如果你是沒學過C++的，不小心掉進我這篇博客的，我下面就用人話解釋下咩係trait！   
+      接下來，我們來講講rust是如何實現interface這功能的，不像golang和其他高級語言，有關鍵詞interface。rust是用trait來實現的，即稱之爲trait object,就跟trait的名字一樣怪，背了一輩子的英語單詞，背不完的單詞，一輩子看文章像是離不開英語字典這個尿不溼一樣，我也懶得去查trait的單詞意思了，哈哈。我下面就用人話解釋下咩係trait！   
 
-         trait者衆struct共享之method（方法）也。其發明凍機者是爲少重複代碼也。:),忘記喫藥了。   
-
-      我們知道，不知道你知不知道？rust的class定義是成員（member）和方法（method）分開的。其也不叫class，而是struct，閣下可以自行查下rust是如何用impl關鍵字來隱式爲某個struct定義方法（method，以下不再重複寫了，方法即method，海峽兩岸五湖四海大家應該都是這麼稱呼C++中的method爲方法的吧？）的，如果多個struct共享一些方法，可以用trait關鍵字把它們包起來，如果不做interface的功能，有沒必要包起來組織起來給一個trait的別名，臥不知道，大概也許可能用一個別名方便代碼閱讀和管理吧。
+      我們知道，不知道你知不知道？rust的class定義是成員（member）和方法（method）分開的。其也不叫class，而是struct，閣下可以自行查下rust是如何用impl關鍵字來隱式爲某個struct定義方法（method，以下不再重複寫了，方法即method，海峽兩岸五湖四海大家應該都是這麼稱呼C++中的method爲方法的吧？）的，如果多個struct共享一些方法，可以用trait關鍵字把它們包起來，如果不做interface的功能，有沒必要包起來組織起來給一個trait的別名，我不知道，大概也許可能用一個別名方便代碼閱讀和管理吧。
 
       如果你要實現interface pointer的功能，必須要綁起來的。然後實現了這個trait內部**_全部_**方法的struct們就是這個trait的同族，可以用這個trait object來做指針，賦值啊，或傳遞如別的函數的調用中。當然也解決了“ **_如何將不同類型的struct放入vector\<T>中的世紀難題_** ”。   
 
@@ -159,6 +157,43 @@
 
       下面用一個栗子來解釋下上面的人話。  
 
+         pub trait Draw {
+            fn draw(&self);
+            } // 這裏定義了一個Draw的組件interface，方法只有draw()
+
+        pub struct Button {
+                pub width: u32,
+                pub height: u32,
+                pub label: String,
+            }  // 這裏定義一個Button的組件
+
+        impl Draw for Button {
+            fn draw(&self) {
+                // code to actually draw a button
+            }
+            } // Button組件實現Draw組件interface的的draw()方法，
+              // 然後就成了同類。就可以被Draw object指針指向。
+
+        struct SelectBox {
+                width: u32,
+                height: u32,
+                options: Vec<String>,
+            }  // 這裏定義一個SelectBox的組件
+
+        impl Draw for SelectBox {
+            fn draw(&self) {
+                // code to actually draw a select box
+            }
+            }// SelectBox組件實現Draw組件interface的的draw()方法，
+             //然後就成了同類。就可以被Draw object指針指向。
+
+        pub struct Screen {
+            pub components: Vec<Box<dyn Draw>>,
+            } // 在screen中用Draw object指針把button
+              // 和select組件一起放進components的vector中。
+              // 此處dyn就是告訴編譯器，裏面的內存是動態分配的，
+              // 無法在編譯期間確定，所以無須理對內部的內存分配進行
+              // 變量所有權檢查。
 
 
 
@@ -168,6 +203,22 @@
       就是在使用的時候，一定要先判斷類型，然後才能調用其成員和方法，要知道，這部分的代碼是我們自己管理內存。不要出現成員或方法不存在，以及內存忘記清除的錯誤。
 
 
+以上就是從比較容易理解的和不是那麼嚴謹的指針的角度來理解Rust的trait作爲interface時的原理。
+
+##### 注意一點，其作爲指針指向靜態和動態元素時的語法。所謂靜態，就是告訴rust編譯器，其所指的元素內存在編譯器階段就能確定，其元素的內存沒有像是vector\<T>那樣動態變化的。這時傳遞參數時如下： 
+
+      pub fn notify(item: impl Summary) {
+
+            println!("Breaking news! {}", item.summarize());
+
+         }
+注意到pub fn notify(item: impl Summary) 函數定義沒有像下面這個vector一樣動態 
+
+      pub struct Screen {
+            pub components: Vec<Box<dyn Draw>>,
+
+加dyn這個關鍵字。
+#### 語法無須要死背，可以查收冊，無法就是找一些語法來告訴編譯器，讓它不要對一些在編譯階段無法預測的動態內容做所有權檢查，我們自己像寫C語言那樣自己負責對heap內存進行管理。
 
 
 
