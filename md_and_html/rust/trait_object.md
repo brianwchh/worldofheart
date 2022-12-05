@@ -205,9 +205,10 @@
 
 以上就是從比較容易理解的和不是那麼嚴謹的指針的角度來理解Rust的trait作爲interface時的原理。
 
-##### 注意一點，其作爲指針指向靜態和動態元素時的語法。所謂靜態，就是告訴rust編譯器，其所指的元素內存在編譯器階段就能確定，其元素的內存沒有像是vector\<T>那樣動態變化的。這時傳遞參數時如下： 
+##### 注意一點，
 
-      pub fn notify(item: impl Summary) {
+      pub fn notify(item: impl Summary) {  
+            // item 是參數，是trait object/interface type 的一個instance，即實例
 
             println!("Breaking news! {}", item.summarize());
 
@@ -216,10 +217,22 @@
 
       pub struct Screen {
             pub components: Vec<Box<dyn Draw>>,
+            // 此處Draw是trait object/interface的type
+            // Box\<Type>簡單理解就是獲得其中Type元素（在heap）上的地址，就是說
+            // Box\<Type> 就成了指向該Type實例（instance）在heap上的地址。
+            eg : 
+            let b : Box\<int32> = Box::new(5); 
+            b就成了指向在heap上的5，雖然這個有點誇張，把一個int32數放在heap，    
+            但可以說明下Box的原理。所以無法就是類似於圖1，理解了，就也能理解很多   
+            其他的只能指針的內容。   
 
 加dyn這個關鍵字。
 
-#### 語法無須要死背，可以查收冊，無法就是找一些語法來告訴編譯器，讓它不要對一些在編譯階段無法預測的動態內容做所有權檢查，我們自己像寫C語言那樣自己負責對heap內存進行管理。有些語法寫得很奇怪，只要理解作者用意，按照他們的要求來寫即可。
+   所以概括上面的解釋就是，一個是函數的參數（parameter),在C語言里也腳argment，pub fn notify(item: impl Summary)，即item是impl了Summary這個trait object的是struct。    
+   而pub components: Vec\<Box\<dyn Draw > >,即components是vector類型，vector成員的類型是Box\<dyn Draw>, 即指向了在heap上的trait object類型Struct的實例。    
+   以上兩者做得事情都差不多，就是如何把指針指向heap上的trait object同族的struct，只是在表達意思時，函數參數和變量類型重實現這個trait object指針的 ***_語法_*** 不一樣。     
+
+
 
 
 
