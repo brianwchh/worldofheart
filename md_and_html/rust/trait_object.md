@@ -13,6 +13,8 @@
 
 ****
 
+# <p align="center"> trait object    </p>
+
 用不嚴謹的話概括：trait object就類似與其他語言中的接口(interface)，比如Golang。如果你沒有學過GoLang語言，也沒關係，我在這裏嘗試站在語言設計者的角度來介紹
 
    1. 設計接口interface的動機。

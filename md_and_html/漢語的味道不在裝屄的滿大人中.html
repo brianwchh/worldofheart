@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>漢語的味道不在裝屄的滿大人中.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<ul>
+<li><a href="../tableOfContent.md">查看更多文章請點擊此跳轉到博客目錄頁面</a></li>
+</ul>
+<hr>
+<h1 id="p-align%22center%22-%E6%BC%A2%E8%AA%9E%E7%9A%84%E5%91%B3%E9%81%93%E4%B8%8D%E5%9C%A8%E8%A3%9D%E5%B1%84%E7%9A%84%E6%BB%BF%E5%A4%A7%E4%BA%BA%E4%B8%AD-p"><p align="center"> 漢語的味道不在裝屄的滿大人中    </p></h1>
+<p>黃山歸來不看嶽，五嶽歸來不看山！學了粵語，聽了比較正宗的客家話和山歌，再回來審視一本正經裝屄的官腔滿大人的胡言亂語，頓時覺得，我們中國人真的離自己祖宗的話很遠，聲音不對，寫作也沒了蘇東坡的味道！</p>
+<p>漢語字的味道在正宗的雅和俚，聲音的精華在於六調九聲的重語輕音的音韻。粵語很動聽，就是因爲她很完美地繼承了中古漢語的音韻。漢語是一個很講究音律的語言，講話好聽才是正宗的漢語。</p>
+<p>很慚愧，一直以爲自己是客家人，其實，我們很多人都不是正宗的客家人了，我們丟失了自己的正宗的文字和聲音，因爲戰亂和顛沛流離。廣府話因爲其偏居南方，倖免了很多戰亂，反而很有幸爲優美文雅的漢語保留一份正宗的雅言雅音！</p>
+<p>客家話和粵語中有太多的重疊，很多話，客家人和說粵語的人，一聽就能知道那種漢語的味道，有些是俚，有些是雅。客語和粵語是同源，應該皆來自中原，只是客家話因爲顛沛流離沒有很好地保留以前原汁原味的味道。連我這自稱里所謂的世界客家中心梅州比較近的人，從小到大都沒覺得客家話好聽，說話好硬，表達能力好差！</p>
+<p>在聽過相對比較有音律的客家話之後，才發現，自己坐井觀天，根本不知道正宗的客家話。</p>
+<p>一曲山歌唱風流！你以爲失傳的《詩經》的風，原來一直都在客家山歌里！</p>
+<p>什麼叫以前的人開口就是歌，客家話保留了非常多正味的古漢語，在語言的表達能力上能俚能雅，所以生活的方方面面都能唱成歌！好像以前的人，真的能一言不合就對歌一樣。這本就應該是文化該有的味道和美！</p>
+<p>這些山歌拿胡言亂語的滿大人來唱，音律不對，味道也對，兩種語言的發音走的都不是一個路數。那些好聽的客家話的發音更內斂內涵，基本和粵語想去不太大，很明顯能看到客語和粵語的傳承痕跡。還有閩南語，這個被滿屄語稱爲方言的話，都能找到自家人的聯繫，唯獨滿大人自己音律讀詩詞都不對，而且缺了這三種所謂方言能表達的漢語道地的味道！</p>
+<p>在朗讀上，不僅是因爲發音完全不一樣，還因爲有入聲，朗誦大家都容易做到好聽，而不需要什麼一級吹簫級別的特別培訓的吹簫師來朗讀，就像粵語電影沒聽過要配音的一樣。學校的時候，我們不喜歡朗讀，大概也是大舌頭太別扭了，詩詞都變了味，那些所謂的官腔的吹簫人士讀的，一本正經地，誇張地像沒喫藥一樣。說到屄語的朗讀難不難，估計要問官員自己了！屄語說話，朗誦和唱歌能做到正常，只能弱化那些卷舌音和兒話音，這些可以聽歌得出結論。即使如此不按照屄語的規則發音，這就回到了傳統漢語沒卷舌音的路上了，普通話在音線上比較單調和重語，如果做頻譜分析，應該可以看出來，不像粵語客家話和閩南語那樣比較圓潤和婉約。</p>
+<p>現在所謂的普通話的味道，可能真的只剩下一個一本正經的裝出來的大寫的屄！</p>
+<p>正宗漢語的味道保存在粵語客家話閩南語等這些語言中。連韓語的漢字用語和發音都保留了比滿大人更原味的味道！</p>
+<p>太可惜了！！！</p>
+<p>沒能正確認識漢語，應該是活到現在的一大遺憾了！！！</p>
+
+</body>
+</html>
