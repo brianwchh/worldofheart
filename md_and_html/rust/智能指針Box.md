@@ -94,6 +94,32 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 </div> <!-- end pictureWrapper_div -->
 
 
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+
+<div style="display: flex; flex-direction: row; margin-top: 40px; margin-bottom: 50px;">
+
+<div style="flex-basics: auto;flex:1;"></div>
+
+
+
+<image style=" flex:0; width: 100%; max-width: 1000px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/reference3.png'/>
+
+
+<div style="flex-basics: auto;flex:1;"></div>
+
+</div>
+
+</div> <!-- end pictureWrapper_div -->
+
+
+- ## referencing 與 raw pointer （* const / * mut )的區別
+
+    從上圖可以看出，reference其實就是將stack部分的數值（meta data/描述信息）拷貝了一份，命名爲s2。然後s1和s2都指向heap上的同一塊內存。這就是語句（let s2 = &s1 //s2只讀 ； 或者let s2 = & mut s1 ; //s2 可寫 ）所做的事情。
+
+
+
 - ## move, 轉移所有權
 
         let mut s1 = String::from("hello");
@@ -105,9 +131,13 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 
 
 
-其實，我們已經有了，reference（只讀）和mut reference（讀寫），還有mv的方式，把所有權直接給另一個變量。
+- ## 什麼情況下用Box\<T>
 
+    簡單來說，就是當你有一段數據，尤其是大小在compiler階段無法確定的數據，這種情況，一般都要把raw data放在heap上，然後在stack上生成像描述信息，如上面提到的String類型。  
 
+    Box是一種struct，好處是，自己可以添加trait的方法，比如 let GetValue =  * some_box_instance ; // dereference 的方法。  
+
+    當我們稱之爲智能指針時，一般都是說它能夠在退出作用域時，自動刪除heap上的內存（當然還有stack上的）。Box實現這種自動刪除的智能方式就是通過自定義drop方法，在退出作用域時，會自動調用這個drop方法，而我們則需要在這drop方法里寫上刪除某個變量的語句。   
 
 
         
