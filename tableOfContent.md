@@ -1,9 +1,13 @@
 ***
 - [返回首页](./readme.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <font size=1> [*_點擊此查看html網頁格式_*](./readme.html)&nbsp; &nbsp; [*_pdf格式_*](./readme.md.pdf) </font>
+---
+# 文章分類
+- [隨筆雜文](#隨筆雜文)
 - [技術博客文章目錄](#技術博客文章目錄)
+- [客家話學習](#客家話學習)
 ***
+#### <p id="隨筆雜文"> <p/>  
 # 博客目錄
-
 - [無眠月照無情門](./md_and_html/無眠月照無情門.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/無眠月照無情門.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/無眠月照無情門.md.pdf) </font>
 - [心學新解](./md_and_html/心學新解.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/心學新解.md.pdf)</font>
 - [飛蛾撲火](./md_and_html/飛蛾撲火.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/飛蛾撲火.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/飛蛾撲火.md.pdf)</font>
@@ -21,7 +25,8 @@
 #### Rust學習
 * [Trait object](./md_and_html/rust/trait_object.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/rust/trait_object.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/rust/trait_object.md.pdf)</font>
 
-
+***
+#### <p id="客家話學習"> <p/>
 ## 客家話學習(寧賣祖宗田勿忘祖宗言)   
 *_客家話日常用語保留了好多古漢語啲雅言，譬如，其/涯來矣，行行踏踏...，一點也不覺得彆扭拗口_*
 * [阿姆話四方言](./md_and_html/客家話/阿姆話四方言.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/阿姆話四方言.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/阿姆話四方言.md.pdf)</font>
