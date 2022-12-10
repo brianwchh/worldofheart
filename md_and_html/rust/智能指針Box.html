@@ -367,7 +367,7 @@ code {
   </script>
 <hr>
 <ul>
-<li><a href="../../tableOfContent.md">查看更多文章請點擊此跳轉到博客目錄頁面</a></li>
+<li><a href="../../tableOfContent.md">查看更多文章請點擊此跳轉到博客目錄頁面</a>  <font size=1> <a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
 </ul>
 <hr>
 <h4 id="%E6%8E%A8%E8%96%A6%E6%96%87%E7%AB%A0%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3">推薦文章&lt;&lt;心學新解&gt;&gt;</h4>
@@ -425,16 +425,51 @@ code {
 </div> <!-- end pictureWrapper_div -->
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-<div style="display: flex; flex-direction: row; margin-top: 40px; margin-bottom: 50px;">
+<div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
 <div style="flex-basics: auto;flex:1;"></div>
 <image style=" flex:0; width: 100%; max-width: 1000px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/reference3.png'/>
 <div style="flex-basics: auto;flex:1;"></div>
 </div>
 </div> <!-- end pictureWrapper_div -->
+<p align="center"> 圖1 </p>
 <ul>
 <li>
 <h2 id="referencing-%E8%88%87-raw-pointer--const---mut-%E7%9A%84%E5%8D%80%E5%88%A5">referencing 與 raw pointer （* const / * mut )的區別</h2>
 <p>從上圖可以看出，reference其實就是將stack部分的數值（meta data/描述信息）拷貝了一份，命名爲s2。然後s1和s2都指向heap上的同一塊內存。這就是語句（let s2 = &amp;s1 //s2只讀 ； 或者let s2 = &amp; mut s1 ; //s2 可寫 ）所做的事情。</p>
+<p>**<em>而raw pointer</em>**的值就是其指向的變量首地址。還是以上圖1爲栗子。</p>
+<pre><code>  let raw_ptr_of_s1 = &amp;s1 ; // &amp;s1可以用C語言中的取s1變量的首地址來理解。&amp;在此爲取地址操作符號。
+</code></pre>
+  <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+  <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
+  <div style="flex-basics: auto;flex:1;"></div>
+  <image style=" flex:0; width: 100%; max-width: 1000px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic2.png'/>
+  <div style="flex-basics: auto;flex:1;"></div>
+  </div>
+  </div> <!-- end pictureWrapper_div -->
+  <p align="center"> 圖2 </p>
+<p>如果我們打印其類型，compiler自動infer的類型爲如下：</p>
+  <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+  <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
+  <div style="flex-basics: auto;flex:1;"></div>
+  <image style=" flex:0; width: 100%; max-width: 1000px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic3.png'/>
+  <div style="flex-basics: auto;flex:1;"></div>
+  </div>
+  </div> <!-- end pictureWrapper_div -->
+  <p align="center"> 圖3 </p>
+<p>以一張圖來幫助理解raw pointer和reference在stack和heap上的存放方式：</p>
+<pre><code>  &lt;!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only --&gt;
+</code></pre>
+  <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
+  <div style="flex-basics: auto;flex:1;"></div>
+  <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic4.png'/>
+  <div style="flex-basics: auto;flex:1;"></div>
+  </div>
+  </div> <!-- end pictureWrapper_div -->
+  <p align="center"> 圖4 </p>
+<p>現在我們來寫一個簡單的程序來驗證下上圖：</p>
 </li>
 <li>
 <h2 id="move-%E8%BD%89%E7%A7%BB%E6%89%80%E6%9C%89%E6%AC%8A">move, 轉移所有權</h2>

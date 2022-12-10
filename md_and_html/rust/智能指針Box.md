@@ -1,5 +1,5 @@
 ****
-- [查看更多文章請點擊此跳轉到博客目錄頁面](../../tableOfContent.md) 
+- [查看更多文章請點擊此跳轉到博客目錄頁面](../../tableOfContent.md) &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](../../tableOfContent.html)&nbsp; &nbsp; [*_pdf格式_*](../../tableOfContent.md.pdf)</font>
 
 ****
 #### 推薦文章<<心學新解>>
@@ -98,7 +98,7 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-<div style="display: flex; flex-direction: row; margin-top: 40px; margin-bottom: 50px;">
+<div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
 
 <div style="flex-basics: auto;flex:1;"></div>
 
@@ -112,11 +112,87 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 </div>
 
 </div> <!-- end pictureWrapper_div -->
-
+<p align="center"> 圖1 </p>
 
 - ## referencing 與 raw pointer （* const / * mut )的區別
 
     從上圖可以看出，reference其實就是將stack部分的數值（meta data/描述信息）拷貝了一份，命名爲s2。然後s1和s2都指向heap上的同一塊內存。這就是語句（let s2 = &s1 //s2只讀 ； 或者let s2 = & mut s1 ; //s2 可寫 ）所做的事情。
+
+    **_而raw pointer_**的值就是其指向的變量首地址。還是以上圖1爲栗子。  
+
+        let raw_ptr_of_s1 = &s1 ; // &s1可以用C語言中的取s1變量的首地址來理解。&在此爲取地址操作符號。
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+
+    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
+
+    <div style="flex-basics: auto;flex:1;"></div>
+
+
+
+    <image style=" flex:0; width: 100%; max-width: 1000px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic2.png'/>
+
+
+    <div style="flex-basics: auto;flex:1;"></div>
+
+    </div>
+
+    </div> <!-- end pictureWrapper_div -->
+    <p align="center"> 圖2 </p>
+
+    如果我們打印其類型，compiler自動infer的類型爲如下：
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+
+    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
+
+    <div style="flex-basics: auto;flex:1;"></div>
+
+
+
+    <image style=" flex:0; width: 100%; max-width: 1000px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic3.png'/>
+
+
+    <div style="flex-basics: auto;flex:1;"></div>
+
+    </div>
+
+    </div> <!-- end pictureWrapper_div -->
+    <p align="center"> 圖3 </p>
+
+    以一張圖來幫助理解raw pointer和reference在stack和heap上的存放方式：   
+
+        <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+
+    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
+
+    <div style="flex-basics: auto;flex:1;"></div>
+
+
+
+    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic4.png'/>
+
+
+    <div style="flex-basics: auto;flex:1;"></div>
+
+    </div>
+
+    </div> <!-- end pictureWrapper_div -->
+    <p align="center"> 圖4 </p>
+
+    現在我們來寫一個簡單的程序來驗證下上圖： 
+
+
+    
+
+
+
+
+
+
 
 
 
@@ -138,6 +214,8 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
     Box是一種struct，好處是，自己可以添加trait的方法，比如 let GetValue =  * some_box_instance ; // dereference 的方法。  
 
     當我們稱之爲智能指針時，一般都是說它能夠在退出作用域時，自動刪除heap上的內存（當然還有stack上的）。Box實現這種自動刪除的智能方式就是通過自定義drop方法，在退出作用域時，會自動調用這個drop方法，而我們則需要在這drop方法里寫上刪除某個變量的語句。   
+
+
 
 
         

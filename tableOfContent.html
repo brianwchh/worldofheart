@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tableOfContent.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<ul>
+<li><a href="./readme.md">返回首页</a>  <font size=1> <a href="./readme.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./readme.md.pdf"><em><em>pdf格式</em></em></a> </font></li>
+<li><a href="#%E6%8A%80%E8%A1%93%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%9B%AE%E9%8C%84">技術博客文章目錄</a></li>
+</ul>
+<hr>
+<h1 id="%E5%8D%9A%E5%AE%A2%E7%9B%AE%E9%8C%84">博客目錄</h1>
+<ul>
+<li><a href="./md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md">無眠月照無情門</a> <font size=1> <a href="./md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md.pdf"><em><em>pdf格式</em></em></a> </font></li>
+<li><a href="./md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md">心學新解</a>  <font size=1> <a href="./md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E9%A3%9B%E8%9B%BE%E6%92%B2%E7%81%AB.md">飛蛾撲火</a>  <font size=1><a href="./md_and_html/%E9%A3%9B%E8%9B%BE%E6%92%B2%E7%81%AB.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E9%A3%9B%E8%9B%BE%E6%92%B2%E7%81%AB.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E7%A5%AD%E6%96%87.%E5%A4%A9%E5%A4%96%E6%9C%89%E5%A4%A9.md">祭文.天外有天</a> <font size=1> <a href="./md_and_html/%E7%A5%AD%E6%96%87.%E5%A4%A9%E5%A4%96%E6%9C%89%E5%A4%A9.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E7%A5%AD%E6%96%87.%E5%A4%A9%E5%A4%96%E6%9C%89%E5%A4%A9.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E6%BB%85%E8%87%AA%E5%B7%B1%E6%96%87%E5%8C%96%E7%9A%84%E4%B8%AD%E5%9C%8B%E4%BA%BA.md">滅自己文化的中國人</a> <font size=1> <a href="./md_and_html/%E6%BB%85%E8%87%AA%E5%B7%B1%E6%96%87%E5%8C%96%E7%9A%84%E4%B8%AD%E5%9C%8B%E4%BA%BA.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E6%BB%85%E8%87%AA%E5%B7%B1%E6%96%87%E5%8C%96%E7%9A%84%E4%B8%AD%E5%9C%8B%E4%BA%BA.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E6%96%87%E5%8C%96%E4%B9%8B%E6%96%BC%E7%94%9F%E5%91%BD.md">文化之於生命</a>   <font size=1> <a href="./md_and_html/%E6%96%87%E5%8C%96%E4%B9%8B%E6%96%BC%E7%94%9F%E5%91%BD.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E6%96%87%E5%8C%96%E4%B9%8B%E6%96%BC%E7%94%9F%E5%91%BD.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E5%AE%9A%E9%A2%A8%E6%B3%A2.%E9%A2%A8%E6%B5%81%E8%A9%A9%E7%B6%93%E4%BD%95%E8%99%95%E5%B0%8B.md">定風波.風流詩經何處尋</a>  <font size=1><a href="./md_and_html/%E5%AE%9A%E9%A2%A8%E6%B3%A2.%E9%A2%A8%E6%B5%81%E8%A9%A9%E7%B6%93%E4%BD%95%E8%99%95%E5%B0%8B.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E5%AE%9A%E9%A2%A8%E6%B3%A2.%E9%A2%A8%E6%B5%81%E8%A9%A9%E7%B6%93%E4%BD%95%E8%99%95%E5%B0%8B.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E6%BC%A2%E8%AA%9E%E7%9A%84%E5%91%B3%E9%81%93%E4%B8%8D%E5%9C%A8%E8%A3%9D%E5%B1%84%E7%9A%84%E6%BB%BF%E5%A4%A7%E4%BA%BA%E4%B8%AD.md">漢語的味道不在裝屄的滿大人中</a>  <font size=1><a href="./md_and_html/%E6%BC%A2%E8%AA%9E%E7%9A%84%E5%91%B3%E9%81%93%E4%B8%8D%E5%9C%A8%E8%A3%9D%E5%B1%84%E7%9A%84%E6%BB%BF%E5%A4%A7%E4%BA%BA%E4%B8%AD.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E6%BC%A2%E8%AA%9E%E7%9A%84%E5%91%B3%E9%81%93%E4%B8%8D%E5%9C%A8%E8%A3%9D%E5%B1%84%E7%9A%84%E6%BB%BF%E5%A4%A7%E4%BA%BA%E4%B8%AD.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h4 id="p-id%22%E6%8A%80%E8%A1%93%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%9B%AE%E9%8C%84%22-p"><p id="技術博客文章目錄"> <p/></h4>
+<h2 id="%E6%8A%80%E8%A1%93%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%9B%AE%E9%8C%84">技術博客文章目錄</h2>
+<h4 id="rust%E5%AD%B8%E7%BF%92">Rust學習</h4>
+<ul>
+<li><a href="./md_and_html/rust/trait_object.md">Trait object</a>  <font size=1><a href="./md_and_html/rust/trait_object.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/rust/trait_object.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<h2 id="%E5%AE%A2%E5%AE%B6%E8%A9%B1%E5%AD%B8%E7%BF%92%E5%AF%A7%E8%B3%A3%E7%A5%96%E5%AE%97%E7%94%B0%E5%8B%BF%E5%BF%98%E7%A5%96%E5%AE%97%E8%A8%80">客家話學習(寧賣祖宗田勿忘祖宗言)</h2>
+<p><em><em>客家話日常用語保留了好多古漢語啲雅言，譬如，其/涯來矣，行行踏踏...，一點也不覺得彆扭拗口</em></em></p>
+<ul>
+<li><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%98%BF%E5%A7%86%E8%A9%B1%E5%9B%9B%E6%96%B9%E8%A8%80.md">阿姆話四方言</a>   <font size=1><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%98%BF%E5%A7%86%E8%A9%B1%E5%9B%9B%E6%96%B9%E8%A8%80.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%98%BF%E5%A7%86%E8%A9%B1%E5%9B%9B%E6%96%B9%E8%A8%80.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%98%BF%E5%93%A5%E8%86%9D%E9%A0%AD%E7%95%80%E6%B1%9D%E5%9D%90.md">阿哥膝頭畀汝坐</a>    <font size=1><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%98%BF%E5%93%A5%E8%86%9D%E9%A0%AD%E7%95%80%E6%B1%9D%E5%9D%90.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%98%BF%E5%93%A5%E8%86%9D%E9%A0%AD%E7%95%80%E6%B1%9D%E5%9D%90.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%87%8D%E8%AA%9E%E8%BC%95%E9%9F%B3%E5%9C%A8%E9%9F%B3%E5%BE%8B%E4%B8%AD%E5%95%B2%E5%A5%BD%E8%99%95.md">重語輕音在音律中啲好處</a>    <font size=1><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%87%8D%E8%AA%9E%E8%BC%95%E9%9F%B3%E5%9C%A8%E9%9F%B3%E5%BE%8B%E4%B8%AD%E5%95%B2%E5%A5%BD%E8%99%95.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E9%87%8D%E8%AA%9E%E8%BC%95%E9%9F%B3%E5%9C%A8%E9%9F%B3%E5%BE%8B%E4%B8%AD%E5%95%B2%E5%A5%BD%E8%99%95.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+<li><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E5%A5%BD%E7%B4%AF%E8%83%8C%E5%BE%8C%E5%95%B2%E7%A7%98%E5%AF%86.md">好累背後啲秘密</a>   <font size=1><a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E5%A5%BD%E7%B4%AF%E8%83%8C%E5%BE%8C%E5%95%B2%E7%A7%98%E5%AF%86.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="./md_and_html/%E5%AE%A2%E5%AE%B6%E8%A9%B1/%E5%A5%BD%E7%B4%AF%E8%83%8C%E5%BE%8C%E5%95%B2%E7%A7%98%E5%AF%86.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+
+</body>
+</html>
