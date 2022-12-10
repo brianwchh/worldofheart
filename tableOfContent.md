@@ -24,7 +24,7 @@
 
 #### Rust學習
 * [Trait object](./md_and_html/rust/trait_object.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/rust/trait_object.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/rust/trait_object.md.pdf)</font>
-
+* [智能指針Box](./md_and_html/rust/智能指針Box.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/rust/智能指針Box.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/rust/智能指針Box.md.pdf)</font>
 ***
 #### <p id="客家話學習"> <p/>
 ## 客家話學習(寧賣祖宗田勿忘祖宗言)   
