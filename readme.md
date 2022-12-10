@@ -400,6 +400,7 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 頭枕星辰臥聽曲，  
 朝陽夕陽皆予你。   
 
+</div>
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
@@ -418,6 +419,7 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 </div>
 
 </div> <!-- end pictureWrapper_div -->
+
 
 <div align="center" >
 
@@ -452,6 +454,8 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
    <div style="flex-basics: auto;flex:1;"></div>
 
 </div>
+</div> <!-- end pictureWrapper_div -->
+
 
 <div align="center" >
 
@@ -490,12 +494,16 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
    <div style="flex-basics: auto;flex:1;"></div>
 
 </div>
+</div> <!-- end pictureWrapper_div -->
+
+
 
 
 ***
  
 #### <p id="視頻簡介"> <p/>  
-###### 點擊下面圖片播放視頻：
+
+#### 點擊下面圖片播放視頻：
    
 
 <pre >
@@ -515,9 +523,6 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 </br>
 
 [![Watch the video](./md_and_html/images/page.png)](https://youtu.be/bwtT80qa21o)   
-
-
-
 
 
 
