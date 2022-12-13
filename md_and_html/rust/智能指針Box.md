@@ -164,7 +164,7 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 
     以一張圖來幫助理解raw pointer和reference在stack和heap上的存放方式：   
 
-        <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
     <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
     <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
