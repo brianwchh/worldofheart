@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>忒當盡極還恁.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<ul>
+<li><a href="../../tableOfContent.md">查看更多文章請點擊此跳轉到博客目錄頁面</a>                                    <font size=1> <a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h4 id="%E6%8E%A8%E8%96%A6%E6%96%87%E7%AB%A0%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3">推薦文章&lt;&lt;心學新解&gt;&gt;</h4>
+<h5 id="%E9%80%99%E7%AF%87%E6%96%87%E7%AB%A0%E6%AF%94%E6%88%91%E5%9C%A8%E9%80%99%E8%A3%8F%E5%88%86%E4%BA%AB%E7%9A%84%E4%BB%BB%E4%BD%95%E4%BB%A3%E7%A2%BC%E5%92%8C%E5%89%B5%E6%A5%AD%E9%A0%85%E7%9B%AE%E9%83%BD%E9%87%8D%E8%A6%81%E5%85%B6%E4%B8%AD%E7%9A%84%E7%99%BC%E7%8F%BE%E9%97%9C%E4%BF%82%E5%88%B0%E6%AF%8F%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E6%96%B9%E6%96%B9%E9%9D%A2%E9%9D%A2%E5%93%B2%E5%AD%B8%E6%AF%94%E7%A7%91%E5%AD%B8%E5%92%8C%E6%8A%80%E8%A1%93%E6%9B%B4%E9%87%8D%E8%A6%81%E5%93%B2%E5%AD%B8%E6%98%AF%E4%BA%BA%E7%94%9F%E7%A7%91%E5%AD%B8%E5%92%8C%E6%8A%80%E8%A1%93%E5%8F%AA%E6%98%AF%E5%96%AB%E9%A3%AF%E8%80%8C%E5%B7%B2"><em><em>這篇文章比我在這裏分享的任何代碼和創業項目都重要，其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，科學和技術只是喫飯而已！</em></em></h5>
+<h4 id="%E5%BF%83%E6%99%BA%E6%98%AF%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%93%8D%E6%8E%A7%E7%9A%84%E5%BF%83%E6%99%BA%E6%98%AF%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%93%8D%E6%8E%A7%E7%9A%84%E5%BF%83%E6%99%BA%E6%98%AF%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%93%8D%E6%8E%A7%E7%9A%84%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%845g6g%E5%BE%AE%E6%B3%A2%E8%85%A6%E6%A9%9F%E6%8E%A5%E5%8F%A3%E6%8A%80%E8%A1%93">心智是可以被操控的！心智是可以被操控的！心智是可以被操控的！你所不知道的5G/6G微波腦機接口技術！</h4>
+<h4 id="%E9%BB%9E%E6%93%8A%E4%B8%8B%E9%9D%A2%E9%8F%88%E6%8E%A5%E8%A8%AA%E5%95%8F%E6%AD%A4%E6%96%87%E7%AB%A0">點擊下面鏈接訪問此文章</h4>
+<ul>
+<li><a href="https://github.com/brianwchh/worldofheart">https://github.com/brianwchh/worldofheart</a></li>
+</ul>
+<hr>
+<h1 id="p-align%22center%22-%E5%BF%92%E7%95%B6%E7%9B%A1%E6%A5%B5%E9%82%84%E6%81%81-p"><p align="center"> 忒當盡極還恁    </p></h1>
+<p>客家語跟其他語言一樣都有程度副詞，程度副詞可透露動詞、形容詞或另一個副詞的強度或程度，程度由大到小排列為「忒tik1&gt;盡=極&gt;當=還=恁an」。</p>
+<p>「當、還、恁」的用法，相當於胡語的「很」，是普通程度，如胡語說「很好」，客語則說「當好」；「盡、極」，相當於胡語的「最」，是較高的程度，如胡語說「最多」，客語則說「盡多」；「忒」，相當於胡語的「太」，就是代表超過的意思，如胡語說「太多」，客語就會說「忒多」。https://mhi.moe.edu.tw/faqList.jsp?ID=0&amp;ID2=74</p>
+<p>還多 極qi多</p>
+<p>[ 广　韵 ]：如(jyu4)林(lam4)切,下平21侵,rén,深开三平侵A日<br>
+[ 平水韵 ]：上声二十六寝·去声二十七沁<br>
+[ 国　语 ]：nèn   (白癡型的白切，什麼鬼，胡言亂語，還他媽的國語，垃圾讀半邊，怎麼不和垃圾一樣讀任呢，哈哈)<br>
+[ 粤　语 ]：jam6</p>
+<p>客家話常soeng4（長coeng4）用之恁(am)，應是誤讀（ng6 duk6），口口相傳（hau2 hau2 soeng1 cyun4）然後（jin4 hau6）把j（y）音給弄lung丟diu了。</p>
+
+</body>
+</html>
