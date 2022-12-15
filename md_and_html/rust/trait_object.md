@@ -20,6 +20,7 @@
    1. 設計接口interface的動機。
    2. 實現原理
    3. 注意事項   
+   4. 加dyn這個關鍵字原因
  ---   
 
 參考文檔: rust-programming-language-steve-klabnik, page 407,  Using Trait Objects That Allow for Values of Different Types  
@@ -193,9 +194,17 @@
             pub components: Vec<Box<dyn Draw>>,
             } // 在screen中用Draw object指針把button
               // 和select組件一起放進components的vector中。
-              // 此處dyn就是告訴編譯器，裏面的內存是動態分配的，
-              // 無法在編譯期間確定，所以無須理對內部的內存分配進行
-              // 變量所有權檢查。
+              // Box<T>是將數據類型爲T的變量實例放在heap上，並在stack上
+              // 生成一個指向之的智能指針
+              // 此處dyn就是告訴編譯器，Draw的類型是object safe的
+              // dynamically dispatched trait。
+              // a dyn Trait reference 其成員只有兩個指針，一個指向
+              // 被動態分配的struct instance，另一個指向所有方法的總表頭。
+              // 也因此，dyn trait object可以作爲interface的指針指向
+              // 其同族的struct instance（實例）。
+              // 類比下Box<u32>,eg let stack_pointer_to_8 = Box<8> ;
+              // 即可明白dyn Draw是一種data type，而非實例。說得有點羅嗦:)
+              
 
 
 
@@ -220,15 +229,23 @@
       pub struct Screen {
             pub components: Vec<Box<dyn Draw>>,
             // 此處Draw是trait object/interface的type
-            // Box\<Type>簡單理解就是獲得其中Type元素（在heap）上的地址，就是說
-            // Box\<Type> 就成了指向該Type實例（instance）在heap上的地址。
+            // Box<Type>簡單理解就是獲得其中Type元素（在heap）上的地址，就是說
+            // Box<Type> 就成了指向該Type實例（instance）在heap上的地址。
             eg : 
-            let b : Box\<int32> = Box::new(5); 
+            let b : Box<int32> = Box::new(5); 
             b就成了指向在heap上的5，雖然這個有點誇張，把一個int32數放在heap，    
             但可以說明下Box的原理。所以無法就是類似於圖1，理解了，就也能理解很多   
-            其他的只能指針的內容。   
+            其他的智能指針的內容。   
 
-加dyn這個關鍵字。
+**_加dyn這個關鍵字原因_**
+
+              // dynamically dispatched trait。
+              // a dyn Trait reference 其成員只有兩個指針，一個指向
+              // 被動態分配的struct instance，另一個指向所有方法的總表頭。
+              // 也因此，dyn trait object可以作爲interface的指針指向
+              // 其同族的struct instance（實例）。
+              // 類比下Box<u32>,eg let stack_pointer_to_8 = Box<8> ;
+              // 即可明白dyn Draw是一種data type，而非實例。說得有點羅嗦:)
 
    所以概括上面的解釋就是，一個是函數的參數（parameter),在C語言里也腳argment，pub fn notify(item: impl Summary)，即item是impl了Summary這個trait object的是struct。    
    而pub components: Vec\<Box\<dyn Draw > >,即components是vector類型，vector成員的類型是Box\<dyn Draw>, 即指向了在heap上的trait object類型Struct的實例。    
