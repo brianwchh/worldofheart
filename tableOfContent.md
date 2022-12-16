@@ -35,6 +35,15 @@
 #### <p id="技術博客文章目錄"> <p/>
 ## 技術博客文章目錄
 
+#### 分享我的創業項目源碼及教程（居於stereo vision的3D攝像頭在FPGA上的實現）
+* [教程簡介](./md_and_html/技術教程/3D攝像頭/教程簡介.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/3D攝像頭/教程簡介.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/3D攝像頭/教程簡介.md.pdf)</font>
+
+#### 去中心化家庭雲端IOT系統之個人社交媒體平臺教程
+* [教程簡介](./md_and_html/技術教程/去中心化人社交媒體平臺/教程簡介.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/去中心化人社交媒體平臺/教程簡介.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/去中心化人社交媒體平臺/教程簡介.md.pdf)</font>
+
+#### 深度學習
+* [back-propagation公式推導](./md_and_html/技術教程/深度學習/back-propagation公式推導.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/深度學習/back-propagation公式推導.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/深度學習/back-propagation公式推導.md.pdf)</font>
+
 #### Rust學習
 * [智能指針Box](./md_and_html/rust/智能指針Box.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/rust/智能指針Box.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/rust/智能指針Box.md.pdf)</font>
 * [Trait object](./md_and_html/rust/trait_object.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/rust/trait_object.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/rust/trait_object.md.pdf)</font>
