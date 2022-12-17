@@ -11,11 +11,13 @@
 #### 點擊下面鏈接訪問此文章
 - [https://github.com/brianwchh/worldofheart](https://github.com/brianwchh/worldofheart)
 
-****
+****<p align="center" style="font-size: large;">back-propagation公式推導</p>****
+
+<p align="center" style="font-size: small;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
 
 
-# <p align="center"> back-propagation公式推導   </p>
 
+</br>
 
 [視頻地址： https://youtu.be/XIKUuNDDJZg](https://youtu.be/XIKUuNDDJZg)
 將會補齊文字講解部分。
