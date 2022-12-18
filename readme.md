@@ -402,24 +402,26 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 
 </div>
 
+
+</div> <!-- end pictureWrapper_div -->
+
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-<div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
+<div style="display: flex; flex-direction: row; margin-top: 1px; margin-bottom: 1px; width:100%; height: fit-content;">
 
-   <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-   <image style=" flex:0; width: 70%; max-width: 800px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/moon.png'/>
+<div style="flex-grow:1;flex-shrink:1;"></div>
 
 
-   <div style="flex-basics: auto;flex:1;"></div>
+
+<image style=" flex-grow:1;flex-shrink:1; max-width: 40%; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/moon.png'/>
+
+
+<div style="flex-grow:1;flex-shrink:1;"></div>
 
 </div>
 
 </div> <!-- end pictureWrapper_div -->
-
 
 <div align="center" >
 
@@ -442,18 +444,19 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-<div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
+<div style="display: flex; flex-direction: row; margin-top: 1px; margin-bottom: 1px; width:100%; height: fit-content;">
 
-   <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-   <image style=" flex:0; width: 70%; max-width: 800px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/sh.png'/>
+<div style="flex-grow:1;flex-shrink:1;"></div>
 
 
-   <div style="flex-basics: auto;flex:1;"></div>
+
+<image style=" flex-grow:1;flex-shrink:1; max-width: 40%; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/sh.png'/>
+
+
+<div style="flex-grow:1;flex-shrink:1;"></div>
 
 </div>
+
 </div> <!-- end pictureWrapper_div -->
 
 
@@ -479,24 +482,25 @@ https://www.bilibili.com/video/BV1Ti4y1M7sG/
 
 </div>   
 
+
+
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-<div style="display: flex; flex-direction: row; margin-top: 20px; margin-bottom: 50px;">
+<div style="display: flex; flex-direction: row; margin-top: 1px; margin-bottom: 1px; width:100%; height: fit-content;">
 
-   <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-   <image style=" flex:0; width: 70%; max-width: 800px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/lzhd.png'/>
+<div style="flex-grow:1;flex-shrink:1;"></div>
 
 
-   <div style="flex-basics: auto;flex:1;"></div>
+
+<image style=" flex-grow:1;flex-shrink:1; max-width: 40%; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./md_and_html/images/lzhd.png'/>
+
+
+<div style="flex-grow:1;flex-shrink:1;"></div>
 
 </div>
+
 </div> <!-- end pictureWrapper_div -->
-
-
 
 
 ***
