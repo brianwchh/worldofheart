@@ -41,7 +41,7 @@
 - [VR家庭影院——變革電腦看電影之體驗](./md_and_html/技術教程/深度學習/VR家庭影院——變革電腦看電影之體驗.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/深度學習/VR家庭影院——變革電腦看電影之體驗.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/深度學習/VR家庭影院——變革電腦看電影之體驗.md.pdf)</font>
 
 *真正的 ****_web3.0_**** ,如何用家庭IOT做分佈式雲存儲和雲計算的終端，用閒置的電腦鑽錢_*
-- [a real web3.0 and IPFS](#真正的web3.0)
+- [a real web3.0 and IPFS](./md_and_html/web3.0/real_web3.0_and_IPFS.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/web3.0/real_web3.0_and_IPFS.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/web3.0/real_web3.0_and_IPFS.md.pdf)</font>
 
 ****_把國家的建設建立在別人的金融和芯片之上等同於把自己的睾丸送進別人的手裏。_*** 美蘇太空競賽是個坑，芯片走火入魔也是玩物喪志的坑，科技夠用即可，速度不行，可以用面積做並行來補，時鐘慢點，功率還低，護國神山不是芯片，而是核彈，一個國家如果學烏克蘭自廢武功，將自身的國防建立在別人的正義憐憫和援救之上，是最大的失敗！一個世界糧倉居然成了廢區！沙子不玩不會死人，菜喫的不好，那身體就遭殃，沒有飯喫，遇到鬼天災還會餓死人。把金融的國門看好，把家門看好，多喫好菜，別把好東西賤賣給別人，自己卻和豬一樣喫米糠拌地溝油。喫自己種的菜，讓別人喫芯片，多好！少玩點手機，還能少培養出一些廢青。大好山河，好山好水，更有獨一無二的燦爛文化_*
 - [關起門多讀書多種菜少玩沙子少跳金融坑少炒房子](./md_and_html/技術教程/深度學習/關起門多讀書多種菜少玩沙子少跳金融坑少炒房子.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;     <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/深度學習/關起門多讀書多種菜少玩沙子少跳金融坑少炒房子.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/深度學習/關起門多讀書多種菜少玩沙子少跳金融坑少炒房子.md.pdf)</font>
