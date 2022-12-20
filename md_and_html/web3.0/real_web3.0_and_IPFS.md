@@ -1,0 +1,186 @@
+****
+- [查看更多文章請點擊此跳轉到博客目錄頁面](../../tableOfContent.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](../../tableOfContent.html)&nbsp; &nbsp; [*_pdf格式_*](../../tableOfContent.md.pdf)</font>
+****
+#### 推薦文章<<心學新解>>
+
+##### *_這篇文章比我在這裏分享的任何代碼和創業項目都重要，其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，科學和技術只是喫飯而已！_*
+
+#### 心智是可以被操控的！心智是可以被操控的！心智是可以被操控的！你所不知道的5G/6G微波腦機接口技術！ 
+
+#### 點擊下面鏈接訪問此文章
+- [https://github.com/brianwchh/worldofheart](https://github.com/brianwchh/worldofheart)
+
+****
+
+****<p align="center" style="font-size: larger;">真正的web3.0</p>****
+****<p align="center" style="font-size: small;">如何用家庭IOT做分佈式雲存儲和雲計算的終端，用閒置的電腦鑽錢</p>****
+<p align="center" style="font-size: small;">阿柄</p>
+
+</br>
+
+
+<div align="left">
+
+    An real web3.0 ecosystem should be like this, where web3.0 is not 
+    dependent on anyCryptocurrency platorm, where self-media platform 
+    and home IOT system is decentralized and connected to each other, 
+    where ereryone can rent their free disk space, and where everyone 
+    can rent their computer computation acting as an edge side of 
+    distributed cloud computing,thus thousands and hundreds of ants can 
+    move an elephant. In one world a real web3.0 is fully decentralized
+    and a lot of opportunities are distributed among individuals.
+    click below link to read more ... 
+    一個真的web3.0生態系統應如是：不依賴任何加密平臺，所以不會淪爲別人的韭菜，其中去中心
+    化家庭IOT自媒體平臺之間自由互連，每個人將可以成爲分佈式雲計算的運算終端出租電腦存儲空間
+
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_1.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_2.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_3.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_4.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_5.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_6.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/realweb3.0_7.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
+
+<p align="right"> 2022年12月20日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+</div>
+
+
+
+
+
+</br>
+</br>
+
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 700px ;
+        flex:0;    
+        height:auto; 
+        max-width: 700px;
+        min-width: 700px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+}
+
+</style>
+
+
+<!-- 共用的css -->
+<!-- <head>
+    <link rel="stylesheet" href="../common_css/common_style.css">
+</head> -->
+
+
+
+

@@ -464,39 +464,43 @@ code {
     flex-direction: row; 
     margin-top: 1px; 
     margin-bottom: 1px;
+
+    width: 100% ;
 }
 
 .FlexSide {
+    flex-basis: 0px ;
     flex:1;
+
 }
 
 
 
-/* large device */
+/* large device screen*/
 @media only screen and (min-width: 600px) {
 
     .FlexImage {
-        flex:1;    
+        flex-basis: 600px ;
+        flex:0;    
         height:auto; 
+        max-width: 600px;
         min-width: 600px;
      
     }
 
 }
 
- /* small device */
+ /* small device screen*/
 @media only screen and (max-width: 600px) {
     
     .FlexImage {
-
-        flex:1;    
+        flex-basis: 600px ;
+        flex:1;
         height:auto; 
-        min-width: 90%;
      
     }
 
 }
-
 
 </style>
 

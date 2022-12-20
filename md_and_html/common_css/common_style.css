@@ -1,0 +1,59 @@
+
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 400px ;
+        flex:0;    
+        height:auto; 
+        max-width: 400px;
+        min-width: 400px;
+     
+    }
+}
+
+
