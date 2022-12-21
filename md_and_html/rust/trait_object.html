@@ -378,7 +378,8 @@ code {
 <li><a href="https://github.com/brianwchh/worldofheart">https://github.com/brianwchh/worldofheart</a></li>
 </ul>
 <hr>
-<h1 id="p-align%22center%22-trait-object-p"><p align="center"> trait object    </p></h1>
+<p><strong><strong><p align="center" style="font-size: 36px;">trait object</p></strong></strong></p>
+<p align="center" style="font-size: small;">阿柄</p>
 <p>用不嚴謹的話概括：trait object就類似與其他語言中的接口(interface)，比如Golang。如果你沒有學過GoLang語言，也沒關係，我在這裏嘗試站在語言設計者的角度來介紹</p>
 <ol>
 <li>設計接口interface的動機。</li>
@@ -412,26 +413,26 @@ code {
 <p>很多人也可能都沒寫過C語言，人們發明rust這些高級語言，有一個動機當然是希望程序員能少寫很多代碼，有些代碼可以通過compiler去生成，但不代表我們不要去稍微瞭解下，其背後做了那些工作。</p>
 <p>比如，vector，這是一個大小可變型的內存，可以比較大，真正的數據放在stack肯定是不可能的，stack上只能放指針和描述型數據。這裏用下面一張圖來輔佐理解。</p>
  <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
- <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
- <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
- <div style="flex-basics: auto;flex:1;"></div>
- <image style=" flex:0; width: 100%;  height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/Box_tutorial.png'/>
- <div style="flex-basics: auto;flex:1;"></div>
+ <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+ <div class="ImageWrapperFlex" >
+ <div class="FlexSide"  ></div>
+ <image class="FlexImage"   src='./images/Box_tutorial.png'/>
+ <div class="FlexSide" ></div>
  </div>
+ <p align="center" style="margin:0px;"> 圖1，vector示意圖  </p> 
  </div> <!-- end pictureWrapper_div -->
- <p align = "center" > 圖1，vector示意圖 </p>
  </br>
 <p>暫時先不要去深究Box&lt;Type&gt;,其實也不難，以後會介紹，簡單理解就是獲得一個heap上數據的指針，尤其是當這數據大小在compile階段無法知道時，用Box，其他的可以用其他例如reference和move等方式，這裏不深入介紹Box。放注意力放在我們如何處理在heap上的大數據內存，尤其是像vector這種大小在compile階段無法知道的，即在程序運行階段動態可變的。</p>
 <p>在C語言中，或者是彙編assemblly語言中，我們用鏈表的方式來實現vector，其實rust compiler也是這麼幫我們我們自動實現的，在C語言中，自己寫鏈表成員的添加和刪除還是蠻麻煩的，所謂鏈表，就是在heap的一段一段的小內存（vector成員在heap上的數據空間），裏面有指向上一個成員和下一個成員的地址，這樣，就像鏈表一樣，把vector內的各個成員連在一塊了，在查找的時候，就能循着這個鏈條尋邊所有成員。</p>
  <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
- <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
- <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
- <div style="flex-basics: auto;flex:1;"></div>
- <image style=" flex:0; width: 100%;  height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/linkList.png'/>
- <div style="flex-basics: auto;flex:1;"></div>
+ <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+ <div class="ImageWrapperFlex" >
+ <div class="FlexSide"  ></div>
+ <image class="FlexImage"   src='./images/linkList.png'/>
+ <div class="FlexSide" ></div>
  </div>
+ <p align="center" style="margin:0px;"> 圖2，鏈表意圖   </p> 
  </div> <!-- end pictureWrapper_div -->
- <p align = "center" > 圖2，鏈表意圖 </p>
  </br>
 <p>所有注意上圖heap上綠色和紅色部分的內存是不一定連續的，因爲，每次加入一個vector成員時，我們從高級語言用戶的角度，只是一小段語句，就像大老闆動動嘴，如下</p>
 <pre><code>   v.push(6);
@@ -445,14 +446,14 @@ code {
 <h5 id="vectort%E7%BC%BA%E9%BB%9E%E8%88%87interface%E7%9A%84%E7%99%BC%E6%98%8E%E5%8B%95%E6%A9%9F">vector&lt;T&gt;缺點，與interface的發明動機</h5>
 <p>vector的缺點是，內部成員的所有類型必須一樣，比如vector&lt;int32&gt;, 那麼內部成員必須是全部都是32bit的integer。如何能將不同類型的object放到一個vector裏面呢？</p>
  <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
- <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
- <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
- <div style="flex-basics: auto;flex:1;"></div>
- <image style=" flex:0; width: 100%;  height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/vectorOfDifferentType.png'/>
- <div style="flex-basics: auto;flex:1;"></div>
+ <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+ <div class="ImageWrapperFlex" >
+ <div class="FlexSide"  ></div>
+ <image class="FlexImage"   src='./images/vectorOfDifferentType.png'/>
+ <div class="FlexSide" ></div>
  </div>
+ <p align="center" style="margin:0px;"> 圖3，繪製圖形list in vector   </p> 
  </div> <!-- end pictureWrapper_div -->
- <p align = "center" > 圖3，繪製圖形list in vector </p>
  </br>
 <p>假設我們有一個應用場景，如上圖3所示，我們設計一個繪圖工具，在左邊欄中用一個vector&lt;Shape&gt;把所有可以畫的圖形放在左邊，而且還能讓客戶自定義圖形，放入該欄中。</p>
 <p>這樣自己定義不同的shape struct / class / object 放入vector中，編譯器肯定會報錯的，因爲類型不一樣，即使是指向該object的指針，夜不行！雖然可能都是32bit或64bit的2進制數，但編譯器是理解數據類型的。如何解決呢？ 可否強制轉化成像c語言那樣void*類型的忘能指針呢？但這樣放進去的時候，似乎可以騙過編譯器，說你看，這些成員在內存中的長度都一樣，類型都一樣，不就是32bit嘛。編譯器說：ok！但你在自己調用的時候，還知道哪個是哪個嗎？難道要自己去記住各個順序分別放了什麼類型的指針，然後再強制轉換回來？要知道，這可是動態的，是在程序運行時要做的，而不是你寫程序的時候，靜態預測的。所以這樣的方法顯然能騙得了編譯器，卻弄暈了自己。當然你也可以不轉換回原來的類型，如果你能自己知道各個object成員在內存在的地址的話，你可以和assemble一樣，自己用地址去訪問這些成員，只是你可以想像這複雜程度。</p>
@@ -556,6 +557,70 @@ code {
 <p>所以概括上面的解釋就是，一個是函數的參數（parameter),在C語言里也腳argment，pub fn notify(item: impl Summary)，即item是impl了Summary這個trait object的是struct。<br>
 而pub components: Vec&lt;Box&lt;dyn Draw &gt; &gt;,即components是vector類型，vector成員的類型是Box&lt;dyn Draw&gt;, 即指向了在heap上的trait object類型Struct的實例。<br>
 以上兩者做得事情都差不多，就是如何把指針指向heap上的trait object同族的struct，只是在表達意思時，函數參數和變量類型重實現這個trait object指針的 <em><strong><em>語法</em></strong></em> 不一樣。</p>
+<p align="right"> 2022年12月21日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 700px ;
+        flex:0;    
+        height:auto; 
+        max-width: 700px;
+        min-width: 700px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+}
+
+</style>
+<!-- 共用的css -->
+<!-- <head>
+    <link rel="stylesheet" href="../common_css/common_style.css">
+</head> -->
 
 </body>
 </html>

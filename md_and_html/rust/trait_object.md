@@ -13,7 +13,9 @@
 
 ****
 
-# <p align="center"> trait object    </p>
+
+****<p align="center" style="font-size: 36px;">trait object</p>****
+<p align="center" style="font-size: small;">阿柄</p>
 
 用不嚴謹的話概括：trait object就類似與其他語言中的接口(interface)，比如Golang。如果你沒有學過GoLang語言，也沒關係，我在這裏嘗試站在語言設計者的角度來介紹
 
@@ -52,52 +54,33 @@
       很多人也可能都沒寫過C語言，人們發明rust這些高級語言，有一個動機當然是希望程序員能少寫很多代碼，有些代碼可以通過compiler去生成，但不代表我們不要去稍微瞭解下，其背後做了那些工作。
 
       比如，vector，這是一個大小可變型的內存，可以比較大，真正的數據放在stack肯定是不可能的，stack上只能放指針和描述型數據。這裏用下面一張圖來輔佐理解。
-
+   
       <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-      <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-      <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-      <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-      <image style=" flex:0; width: 100%;  height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/Box_tutorial.png'/>
-
-
-      <div style="flex-basics: auto;flex:1;"></div>
-
+      <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+      <div class="ImageWrapperFlex" >
+      <div class="FlexSide"  ></div>
+      <image class="FlexImage"   src='./images/Box_tutorial.png'/>
+      <div class="FlexSide" ></div>
       </div>
-
+      <p align="center" style="margin:0px;"> 圖1，vector示意圖  </p> 
       </div> <!-- end pictureWrapper_div -->
 
-      <p align = "center" > 圖1，vector示意圖 </p>
-   
       </br>
 
       暫時先不要去深究Box\<Type>,其實也不難，以後會介紹，簡單理解就是獲得一個heap上數據的指針，尤其是當這數據大小在compile階段無法知道時，用Box，其他的可以用其他例如reference和move等方式，這裏不深入介紹Box。放注意力放在我們如何處理在heap上的大數據內存，尤其是像vector這種大小在compile階段無法知道的，即在程序運行階段動態可變的。
 
       在C語言中，或者是彙編assemblly語言中，我們用鏈表的方式來實現vector，其實rust compiler也是這麼幫我們我們自動實現的，在C語言中，自己寫鏈表成員的添加和刪除還是蠻麻煩的，所謂鏈表，就是在heap的一段一段的小內存（vector成員在heap上的數據空間），裏面有指向上一個成員和下一個成員的地址，這樣，就像鏈表一樣，把vector內的各個成員連在一塊了，在查找的時候，就能循着這個鏈條尋邊所有成員。
       
+
       <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-      <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-      <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-      <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-      <image style=" flex:0; width: 100%;  height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/linkList.png'/>
-
-
-      <div style="flex-basics: auto;flex:1;"></div>
-
+      <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+      <div class="ImageWrapperFlex" >
+      <div class="FlexSide"  ></div>
+      <image class="FlexImage"   src='./images/linkList.png'/>
+      <div class="FlexSide" ></div>
       </div>
-
+      <p align="center" style="margin:0px;"> 圖2，鏈表意圖   </p> 
       </div> <!-- end pictureWrapper_div -->
-
-      <p align = "center" > 圖2，鏈表意圖 </p>
       
       </br>
 
@@ -115,23 +98,16 @@
 
       vector的缺點是，內部成員的所有類型必須一樣，比如vector\<int32>, 那麼內部成員必須是全部都是32bit的integer。如何能將不同類型的object放到一個vector裏面呢？
 
+
       <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-      <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-      <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-      <div style="flex-basics: auto;flex:1;"></div>
-
-      <image style=" flex:0; width: 100%;  height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/vectorOfDifferentType.png'/>
-
-
-      <div style="flex-basics: auto;flex:1;"></div>
-
+      <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+      <div class="ImageWrapperFlex" >
+      <div class="FlexSide"  ></div>
+      <image class="FlexImage"   src='./images/vectorOfDifferentType.png'/>
+      <div class="FlexSide" ></div>
       </div>
-
+      <p align="center" style="margin:0px;"> 圖3，繪製圖形list in vector   </p> 
       </div> <!-- end pictureWrapper_div -->
-
-      <p align = "center" > 圖3，繪製圖形list in vector </p>
       
       </br>
 
@@ -255,6 +231,77 @@
 
 
 
+<p align="right"> 2022年12月21日 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+
+
+
+
+
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 700px ;
+        flex:0;    
+        height:auto; 
+        max-width: 700px;
+        min-width: 700px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+}
+
+</style>
+
+
+<!-- 共用的css -->
+<!-- <head>
+    <link rel="stylesheet" href="../common_css/common_style.css">
+</head> -->
 
 
 

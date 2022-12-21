@@ -13,7 +13,8 @@
 
 ****
 
-# <p align="center"> 智能指針box\<T>    </p>
+****<p align="center" style="font-size: 36px;">智能指針box\<T> </p>****
+<p align="center" style="font-size: small;">阿柄</p>
 
 你是否也曾問，何謂智能指針？慾答此問，應先知rust之所有權機制，及其設計動機！
 
@@ -36,29 +37,21 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 - ## move, 轉移所有權
 
     用一張圖來解釋move（淺層拷貝）和clone之深層拷貝。
+
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-<div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-<div style="flex-basics: auto;flex:1;"></div>
-
-
-
-<image style=" flex:0; width: 100%; max-width: 1000px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/reference3.png'/>
-
-
-<div style="flex-basics: auto;flex:1;"></div>
-
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div class="ImageWrapperFlex" >
+<div class="FlexSide"  ></div>
+<image class="FlexImage"   src='./images/reference3.png'/>
+<div class="FlexSide" ></div>
 </div>
-
+<p align="center" style="margin:0px;"> 圖1  </p> 
 </div> <!-- end pictureWrapper_div -->
-<p align="center"> 圖1 </p>
 具體解釋看上圖1中的文字。
 
 
 - ## referencing & borrowing 
-    感覺這Rust發明了好多亂七八糟的名稱，明明可以沿用C語言的詞彙，華華非要搞個borrowing，找了半天還是reference，中的一種（即只讀）。  
+    感覺這Rust發明了好多亂七八糟的名稱，明明可以沿用C語言的詞彙，華華非要搞個borrowing，找了半天還是reference中的一種（即只讀）。  
 
     用一個栗子來說明。   
 
@@ -81,66 +74,42 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
     舉一個栗子來說明變量被referenced的時候，無法使用，只有在reference完成之後，才能使用： 
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-<div style="display: flex; flex-direction: row; margin-top: 40px; margin-bottom: 50px;">
-
-<div style="flex-basics: auto;flex:1;"></div>
-
-
-
-<image style=" flex:0; width: 60%; max-width: 500px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/referenceExample.png'/>
-
-
-<div style="flex-basics: auto;flex:1;"></div>
-
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div class="ImageWrapperFlex" >
+<div class="FlexSide"  ></div>
+<image class="FlexImage"   src='./images/referenceExample.png'/>
+<div class="FlexSide" ></div>
 </div>
+<p align="center" style="margin:0px;">  </p> 
+</div> <!-- end pictureWrapper_div -->
 
+
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div class="ImageWrapperFlex" >
+<div class="FlexSide"  ></div>
+<image class="FlexImage"   src='./images/referenceExample2.png'/>
+<div class="FlexSide" ></div>
+</div>
+<p align="center" style="margin:0px;">  </p> 
 </div> <!-- end pictureWrapper_div -->
 
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-<div style="display: flex; flex-direction: row; margin-top: 40px; margin-bottom: 50px;">
-
-<div style="flex-basics: auto;flex:1;"></div>
-
-
-
-<image style=" flex:0; width: 60%; max-width: 500px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/referenceExample2.png'/>
-
-
-<div style="flex-basics: auto;flex:1;"></div>
-
-</div>
-
-</div> <!-- end pictureWrapper_div -->
-
-
-
 
 
 - ## referencing 與 raw pointer （* const / * mut )的區別
-
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic4.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic4.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖4 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖4 </p>
 
     從上圖4可以看出，reference同move的區別。本質上圖中reference_of_s1和raw pointer功能其實一樣，只是reference_pointer有compiler參與內存管理，在被s2 referenced階段，無法對s1進行操作。s2和指針一樣，指向s1的首地址。
 
@@ -156,23 +125,14 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
     通過下面一個小程序可以驗證：reference的優點是，即可以當成是指針一樣，可以dereference，同時也可以在寫代碼時直接當成是取所reference的變量一樣使用，而不需要在前面加上 *， 比如: * reference_of_Aimage.memberA 其實是Aimage.memberA，但也也可以 reference_of_Aimage.memberA，這樣直接獲取到memberA，編譯器會轉換成指針的方式，這樣的好處就是和C++一樣，不要總是用 * 在變量之前。具體請看下面這個栗子： 
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic5.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic5.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖5 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖4 </p>
        
 
     ***_【總結】_**：reference和pointer在本質上都是指針，在生成assembly代碼時應該是一樣的，其用reference的目的大概就如上面舉的opencv的栗子一樣，寫高級語言的人可能認爲在每個指針變量之前加一個 * 號比較麻煩，於是在語法上設計出一個用於指代(reference)某個變量（以指針的方式指向其首地址，而避免數據拷貝），方便在函數之間做參數傳遞，而且也方便代碼共享，而不用在pointer，reference和變量本身instance三者之間用不同的語法來訪問變量內部成員和方法，典型的就是c++中， 如下： 
@@ -228,64 +188,40 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
     以上就是把u32類型的5放在了heap上，然後在stack上生成了一個描述型的智能指針boxed_variable來管理這個heap上開闢的內存，當然，這裏是殺雞用宰牛刀了，只放了一個數5. 只是用來說明box是如何存放數據的。
 
     我們再用一個栗子來說明。
+
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic6.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic6.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖6 注意Box<T>智能指針居然也能當reference用，因此在讀寫其成員時，無須要先dereference，直接就能用.的方式 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖6 注意Box<T>智能指針居然也能當reference用，因此在讀寫其成員時，無須要先dereference，直接就能用.的方式 </p>
+
 
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic7.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic7.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖7 運行結果 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖7 運行結果 </p>
 
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic8.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic8.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖8 數據在stack和heap中的存放示意圖 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖8 數據在stack和heap中的存放示意圖 </p>
+
 
     **_尤其是數據像String或者vector那樣在編譯階段無法確定大小，其數據是在程序運行階段不斷變化的，由用戶決定，這種情況下，只能將數據存放在heap上，這時就需要用Box來處理了。_**
 
@@ -303,125 +239,90 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
     ### 我們寫一個自定義的box來說明下box是如何智能工作的。
 
     #### 以下代碼演示如何讓自定義的MyBox\<T>能和rust庫自帶的Box\<T>一樣可以同時當作reference和pointer使用，其關鍵就是要爲MyBox\<T>實現rust庫中的Deref trait 的deref方法。看完下面這個例子，就可以明白這句話了。
+
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic9.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic9.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖9 自定義box，嘗試做dereference操作，即讀取其所管理的數  </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖9 自定義box，嘗試做dereference操作，即讀取其所管理的數 </p>
+
+
+
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
     <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic10.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-    </div>
 
     </div> <!-- end pictureWrapper_div -->
     <p align="center"> 圖10 報錯，因爲struct沒有dereference的方法，需要額外impl此dereference的trait，具體實現如下圖 </p>
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic10.png'/>
+    <div class="FlexSide" ></div>
+    </div>
+    <p align="center" style="margin:0px;"> 圖10 報錯，因爲struct沒有dereference的方法，需要額外impl此dereference的trait，具體實現如下圖</p> 
+    </div> <!-- end pictureWrapper_div -->
+
+
 
         *y 應是dereference 智能指針y，來獲得其指向heap上的數據5
 
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic11.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic11.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖11 爲MyBox實現 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖11 爲MyBox實現 * / Deref trait 的deref方法 </p>
+
 
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic12.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic12.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;">圖12 運行結果 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖12 運行結果 </p>
+
+
 
     #### 以上實現了如何用MyBox\<T>在heap上存放數據，接下來，我們用另一個例子來說明，如何做到和rust系統庫自帶的Box\<T>一樣，自動刪除compiler爲我們申請的heap內存空間。
 
-    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic13.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-    </div>
-
-    </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖13 實現Drop trait來自動刪除和釋放heap內存 </p>
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic14.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic13.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖13 實現Drop trait來自動刪除和釋放heap內存  </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖14 程序輸出結果，表明drop在main函數退出之前被調用了。 </p>
+
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic14.png'/>
+    <div class="FlexSide" ></div>
+    </div>
+    <p align="center" style="margin:0px;"> 圖14 程序輸出結果，表明drop在main函數退出之前被調用了。 </p> 
+    </div> <!-- end pictureWrapper_div -->
 
 
     **_注意，因爲rust沒有提供申請和銷毀heap內存的API，此處實現了Drop trait中的drop方法，我們無須在內部自己去刪除某個內存，你想操作，也沒辦法，這裏我們實現了drop方法，但內部怎麼實現drop，那些代碼，rust compiler會添加。除此之外，你還可以加入一些不是刪除heap內存的代碼，如果你需要在MyBox退出之前自己處理一些事情的話，可以在此加入自定義代碼_**
@@ -433,46 +334,95 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 
     解決方法是利用系統提供的另一個API函數，即std::mem::drop，調用了這個函數之後，程序在退出的時候，就不會再調用MyBox_instance.drop()，上例子中，即y.drop()。
 
-    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic15.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-    </div>
-
-    </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖15 調用std::mem::drop 方法</p>
 
 
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
-    <div style="display: flex; flex-direction: row; margin-top: 0px; margin-bottom: 0px;">
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
-
-
-    <image style=" flex:0; width: 100%; max-width: 1900px; height:auto; -moz-opacity: 0.95; -khtml-opacity: 0.95; opacity: 0.99;" src='./images/box_pic16.png'/>
-
-
-    <div style="flex-basics: auto;flex:1;"></div>
-
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic15.png'/>
+    <div class="FlexSide" ></div>
     </div>
-
+    <p align="center" style="margin:0px;"> 圖15 調用std::mem::drop 方法 </p> 
     </div> <!-- end pictureWrapper_div -->
-    <p align="center"> 圖16 輸出結果，可見是先執行了std::mem::drop會調用系統的Drop trait的drop方法，之後才運行println!("exiting main")，之後在main退出時，沒有再次調用Drop trait中的drop方法。這樣就不會出現重複刪除的問題。</p>
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/box_pic16.png'/>
+    <div class="FlexSide" ></div>
+    </div>
+    <p align="center" style="margin:0px;">圖16 輸出結果，可見是先執行了std::mem::drop會調用系統的Drop trait的drop方法，之後才運行println!("exiting main")，之後在main退出時，沒有再次調用Drop trait中的drop方法。這樣就不會出現重複刪除的問題。 </p> 
+    </div> <!-- end pictureWrapper_div -->
 
 
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 700px ;
+        flex:0;    
+        height:auto; 
+        max-width: 700px;
+        min-width: 700px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+}
+
+</style>
+
+
+<!-- 共用的css -->
+<!-- <head>
+    <link rel="stylesheet" href="../common_css/common_style.css">
+</head> -->
 
 
 
