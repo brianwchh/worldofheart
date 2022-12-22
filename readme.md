@@ -1,31 +1,37 @@
-世間無難事只怕有心人！相信所相信，自信所自信！本份！時間就是答案！   
-心，也許會迷失一陣，或許也有殤，但流淚不是懦弱，更不會且不能放棄!
+- ## <font size= 6> **_推薦博客目錄_** &nbsp; ***** </font>  
 
---- 
-## 使用方法介紹
-**_【提示】_** 在github或支持markdown的網站上閱讀，請點擊左邊第一個目錄跳轉鏈接，即[在線閱讀]模式，如果已經下載到了本地，請使用瀏覽器html和pdf版本，（請下載支持目錄跳轉的pdf閱讀軟件，但其實瀏覽器（比如google chrome）也支持pdf模式，而且還支持自動跳轉。相信你也會想用這種方式來管理自己本地雜亂無章的文檔，待你回望人生來時路時，不會踏雪無痕，或腳步燐亂以致要找的記憶無處可尋。如果你還在用word文檔，就有點像是現代人不會用電腦一樣，過時咯。   
+  * [<font size=4 color=red>無眠月照無情門 . 失去自由的歌手</font>](./md_and_html/無眠月照無情門.md)[在線閱覽]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=1> [本地閱覽]</font> <font size=2>[*_html網頁格式_*](./md_and_html/無眠月照無情門.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/無眠月照無情門.md.pdf)</font>
+  * [<font size=4>心學新解</font>](./md_and_html/心學新解.md)[在線閱覽] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font size=1> [本地閱覽]</font> <font size=2>[*_html網頁格式_*](./md_and_html/心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/心學新解.md.pdf)</font>
 
- **_各位要在本地管理自己的博客文章或日記，可以參考這種模式_**，只要寫md（markdown）文件(隨便找個支持md的編輯器就能一邊寫，一邊生成預覽)，就能生成html文件，進而又由html生成pdf文件。最關鍵是文件檢索很方便。這樣寫文章比用word文檔輕便多了，即方便本地瀏覽保存，又適合網上發表。
+#
+          世間無難事只怕有心人！相信所相信，自信所自信！本份！時間就是答案！   
+          心，也許會迷失一陣，或許也有殤，但流淚不是懦弱，更不會且不能放棄!
+# 
 
- 具體教程點擊此鏈接： <font size=1>[如何取代word文檔管理海量文件](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.md)[在線閱覽]</font> &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <font size=1> 下載至本地閱覽[*_點擊此查看html網頁格式_*](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.md.pdf)</font>
+- ###  <font size= 6> *_使用方法介紹_* </font>   
 
-# 博客目錄
-- #### [**_點擊此跳轉至目錄頁面（雜文隨筆，編程技術教程，客家話學習等等）_**](./tableOfContent.md)<font size=1><--[github在線閱讀只能用markdown版本]</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=1>[下載至本地閱覽推薦網頁和pdf版本]--> </font><font size=1>[*_點擊此查看html網頁格式_*](./tableOfContent.html)&nbsp; &nbsp; [*_pdf格式_*](./tableOfContent.md.pdf)</font>
+    **_【提示】_** 在github或支持markdown的網站上閱讀，請點擊左邊第一個目錄跳轉鏈接，即[在線閱讀]模式，如果已經下載到了本地，請使用瀏覽器html和pdf版本，（請下載支持目錄跳轉的pdf閱讀軟件，但其實瀏覽器（比如google chrome）也支持pdf模式，而且還支持自動跳轉。相信你也會想用這種方式來管理自己本地雜亂無章的文檔，待你回望人生來時路時，不會踏雪無痕，或腳步燐亂以致要找的記憶無處可尋。如果你還在用word文檔，就有點像是現代人不會用電腦一樣，過時咯。   
+
+    **_各位要在本地管理自己的博客文章或日記，可以參考這種模式_**，只要寫md（markdown）文件(隨便找個支持md的編輯器就能一邊寫，一邊生成預覽)，就能生成html文件，進而又由html生成pdf文件。最關鍵是文件檢索很方便。這樣寫文章比用word文檔輕便多了，即方便本地瀏覽保存，又適合網上發表。<font size=3 color=rgb(210,190,0)>*_更重要的是，在學以致用的如沐春風里，在催眠不覺曉中被忽悠進了仇深似海的程序猿門，來吧，歡迎諸位學富五車汗牛充棟、拿起鍵盤能當賤客、拿起筆專門忽悠妹子上牀的你們來加入程序猿的隊列吧 :) 。現代的文人不會編程，當不了竹林七賢，但很可能會是家裏妻嫌：還不多去幾個平臺發文當長工，老娘化妝品買不起啦！ 來吧，小生教你從寫靜態網站開始，一步一步跳入猿門深海。然後認真經營推廣自己的網站！很認真地說：是真的！word文檔其實就是簡單的靜態html+CSS網頁。除了設計網站，小生也將努力分享linux嵌入式編程、FPGA編程等知識，當然還有一些算法及其硬件加速的知識（這個是我的長項），真不難，只要方法對頭，再加功夫深，什麼都能磨成繡花針！ :)。知識源自社區，也回饋社區，希望這些文章能幫助到各位。_*</font>
+
+    具體教程點擊此鏈接： <font size=1>[<font size=3> *_如何取代word文檔管理海量文件_* </font>](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.md)[在線閱覽]</font> &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <font size=1> 下載至本地閱覽</font> <font size=3>[*_點擊此查看html網頁格式_*](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.md.pdf)</font>
+
+#
+
+- ####  <font size= 6> *_博客目錄_* </font> 
+  -  [**_<font size=4>點擊此跳轉至目錄頁面（雜文隨筆，創業項目FPGA源碼、編程技術教程，客家話學習等等）</font>_**](./tableOfContent.md)<font size=2><--[github在線閱讀只能用markdown版本]</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=2>[下載至本地閱覽推薦網頁和pdf版本]--> </font><font size=4>[**_點擊此查看html網頁格式_**](./tableOfContent.html)&nbsp; &nbsp; [**_pdf格式_**](./tableOfContent.md.pdf)</font>
 ****
-## 推薦博客目錄
 
-* [無眠月照無情門](./md_and_html/無眠月照無情門.md)[在線閱覽]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;<font size=1> [下載至本地閱覽][*_點擊此查看html網頁格式_*](./md_and_html/無眠月照無情門.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/無眠月照無情門.md.pdf)</font>
-* [心學新解](./md_and_html/心學新解.md)[在線閱覽] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font size=1> [下載至本地閱覽][*_點擊此查看html網頁格式_*](./md_and_html/心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/心學新解.md.pdf)</font>
+- ######  <font size= 5> *_推薦文章_* </font> 
+    #### *_這篇文章比我在這裏分享的任何代碼和創業項目都重要，其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，科學和技術只是喫飯而已！_*
 
+    #### 心智是可以被操控的！心智是可以被操控的！心智是可以被操控的！你所不知道的5G/6G微波腦機接口技術！ 
+  - [<font size=4 color=red>無眠月照無情門 . 失去自由的歌手</font>](https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md)<font size=2> &nbsp;<--[點擊此前往github在線閱讀]</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=2>本地模式 &nbsp;</font><font size=4>[html網頁版](./md_and_html/無眠月照無情門.html) &nbsp;&nbsp;&nbsp; [pdf版本](./md_and_html/無眠月照無情門.md.pdf) </font>
 
+</br>
+</br>
 
-****
-#### 推薦文章
-##### *_這篇文章比我在這裏分享的任何代碼和創業項目都重要，其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，科學和技術只是喫飯而已！_*
-
-#### 心智是可以被操控的！心智是可以被操控的！心智是可以被操控的！你所不知道的5G/6G微波腦機接口技術！ 
-****
-****<p align="center" style="font-size: large;">心学新解</p>****
+****<p align="center" style="font-size: 32px;">心学新解</p>****
 <p align="center" style="font-size: large;">阿柄</p>
 
 
