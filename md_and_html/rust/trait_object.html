@@ -466,10 +466,10 @@ code {
 <li>
 <h3 id="interface%E4%BF%82%E5%92%A9">interface係咩</h3>
 <p>那我們能不能發明創造一個一種指針，用於指向一些不同類型的object，class，或struct，相當於在語法層面告訴compiler說，這些不同類型的成員是我的同族，我可以用這種指針去指向它們，其實嘛就是32bit或64bit的2進制數嘛，只是高級語言嘛，都要語法規則，那我們就創造這種規則，然後在vector&lt;interface_pointer&gt;中把這些同族成員放進去。然後在調用時，就可以用interface_pointer.shape_type,或者interface_pointer.width,又或者調用其方法interface_pointer.draw_shape(),如此等等遍歷所有成員和方法，然後顯示在GUI（界面）上。而我們在寫程序用每個成員時，先判斷具體是什麼類型的，這樣就不會調用到不存在的變量或方法，兒導致程序出現動態的錯誤，並且，這一段程序，我們必須告訴compiler，我們自己像寫C語言一樣，自己搞定heap內存變量的管理，因爲compiler沒法管理動態的存儲分配。</p>
-<p>ok，思路有了，無法就是搞一套語法，和compiler商量好，那32bit或64bit二進制數是interface的指針，然後要compiler去生成訪問成員和方法的assembly code.</p>
+<p>ok，思路有了，無非就是搞一套語法，和compiler商量好，那32bit或64bit二進制數是interface的指針，然後要compiler去生成訪問成員和方法的assembly code.</p>
 <p>接下來，我們來講講rust是如何實現interface這功能的，不像golang和其他高級語言，有關鍵詞interface。rust是用trait來實現的，即稱之爲trait object,就跟trait的名字一樣怪，背了一輩子的英語單詞，背不完的單詞，一輩子看文章像是離不開英語字典這個尿不溼一樣，我也懶得去查trait的單詞意思了，哈哈。我下面就用人話解釋下咩係trait！</p>
 <p>我們知道，不知道你知不知道？rust的class定義是成員（member）和方法（method）分開的。其也不叫class，而是struct，閣下可以自行查下rust是如何用impl關鍵字來隱式爲某個struct定義方法（method，以下不再重複寫了，方法即method，海峽兩岸五湖四海大家應該都是這麼稱呼C++中的method爲方法的吧？）的，如果多個struct共享一些方法，可以用trait關鍵字把它們包起來，如果不做interface的功能，有沒必要包起來組織起來給一個trait的別名，我不知道，大概也許可能用一個別名方便代碼閱讀和管理吧。</p>
-<p>如果你要實現interface pointer的功能，必須要綁起來的。然後實現了這個trait內部**<em>全部</em>**方法的struct們就是這個trait的同族，可以用這個trait object來做指針，賦值啊，或傳遞如別的函數的調用中。當然也解決了“ <strong><em>如何將不同類型的struct放入vector&lt;T&gt;中的世紀難題</em></strong> ”。</p>
+<p>如果你要實現interface pointer的功能，必須要綁起來的。然後實現了這個trait內部 <strong><em>全部</em></strong> 方法的struct們就是這個trait的同族，可以用這個trait object來做指針，賦值啊，或傳遞如別的函數的調用中。當然也解決了“ <strong><em>如何將不同類型的struct放入vector&lt;T&gt;中的世紀難題</em></strong> ”。</p>
 </li>
 <li>
 <h3 id="%E6%88%91%E8%88%89%E4%B8%80%E5%80%8B%E6%A0%97%E5%AD%90">我舉一個栗子</h3>

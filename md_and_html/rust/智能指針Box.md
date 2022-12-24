@@ -96,9 +96,6 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 </div> <!-- end pictureWrapper_div -->
 
 
-<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-<div align="center" style="page-break-inside: avoid;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-
 
 
 - ## referencing 與 raw pointer （* const / * mut )的區別
@@ -116,11 +113,11 @@ rust語言設計宗旨之一，就是在 ***_變量離開作用區域時，自�
 
     而
 
-        let raw_pointer_of_s1 = & s1 as &String ;
+        let pointer_of_s1 = & s1 as * const String ;
 
-    注意上面的語法，compiler是如何生成raw pointer的。與reference的區別是，s1在被raw_pointer_of_s1指向的階段，依然可以操作。這裏就需要自己管理內存，也是被compiler認爲不安全的代碼區段，你需要自己非常注意管理內存。
+    注意上面的語法，compiler是如何生成raw pointer的。與reference的區別是，s1在被pointer_of_s1指向的階段，依然可以操作。這裏就需要自己管理內存，也是被compiler認爲不安全的代碼區段，你需要自己非常注意管理內存。(後面有更詳細介紹)
 
-    這裏吐曹下rust reference語法之怪！在賦值的時候，居然和pointer一樣的使用，即 * reference_of_s1 = something...,與 * raw_pointer_of_s1 = somthing 的dereference是一樣的。用過openCV C++代碼的人，或許對Mat& reference_of_Aimage = instance_of_Aimage ; 與Mat * pointer_of_Aimage = &instance_of_Aimage ; 應該有所瞭解。在C++中，reference和pointer在本質上是一樣，只是方便語法，有人認爲 * pointer_of_Aimage是C語言的寫代碼模式，應儘量不使用pointer，因此可能有了reference，本質還pointer，只是在訪問class/object成員時，不需要像pointer那樣，因爲pointer的是用pointer_of_Aimage->memberA, pointer_of_Aimage->methodA(),而在opencv的庫裏面，我們大部分代碼是instance_of_Aimage.methodA()，或instance_of_Aimage.memberA，在復用代碼的時候，你如果用pass value by pointer，在復用的函數內，就像逐個把"."換成”->“，代碼一多，就顯得很麻煩，而用refence則可以繼續使用reference_of_Aimage.memberA,reference_of_Aimage.methodA().
+    這裏吐曹下rust reference語法之怪！在賦值的時候，居然和pointer一樣的使用，即 * reference_of_s1 = something...,與 * pointer_of_s1 = somthing 的dereference是一樣的。用過openCV C++代碼的人，或許對Mat& reference_of_Aimage = instance_of_Aimage ; 與Mat * pointer_of_Aimage = &instance_of_Aimage ; 應該有所瞭解。在C++中，reference和pointer在本質上是一樣，只是方便語法，有人認爲 * pointer_of_Aimage是C語言的寫代碼模式，應儘量不使用pointer，因此可能有了reference，本質還pointer，只是在訪問class/object成員時，不需要像pointer那樣，因爲pointer的是用pointer_of_Aimage->memberA, pointer_of_Aimage->methodA(),而在opencv的庫裏面，我們大部分代碼是instance_of_Aimage.methodA()，或instance_of_Aimage.memberA，在復用代碼的時候，你如果用pass value by pointer，在復用的函數內，就像逐個把"."換成”->“，代碼一多，就顯得很麻煩，而用refence則可以繼續使用reference_of_Aimage.memberA,reference_of_Aimage.methodA().
     而rust則使用* pointer_of_Aimage.memberA 和 * reference_of_Aimage.memberA一樣的語法方式。這裏自己就要自己記住某個變量是reference還是pointer，雖然本質上兩者都是指針。只是在rust里，reference是compiler管理內存，而pointer則是要程序員自己注意管理內存，提供了更多的自定義的靈活度。   
     
     通過下面一個小程序可以驗證：reference的優點是，即可以當成是指針一樣，可以dereference，同時也可以在寫代碼時直接當成是取所reference的變量一樣使用，而不需要在前面加上 *， 比如: * reference_of_Aimage.memberA 其實是Aimage.memberA，但也也可以 reference_of_Aimage.memberA，這樣直接獲取到memberA，編譯器會轉換成指針的方式，這樣的好處就是和C++一樣，不要總是用 * 在變量之前。具體請看下面這個栗子： 
