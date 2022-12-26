@@ -161,8 +161,24 @@
         - [不要臉](./md_and_html/附庸風雅/不要臉.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/不要臉.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/不要臉.md.pdf)</font>
 
         - [值得](./md_and_html/附庸風雅/值得.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/值得.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/值得.md.pdf)</font>
+
+        - [未來在掌心](./md_and_html/附庸風雅/未來在掌心.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/未來在掌心.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/未來在掌心.md.pdf)</font>
+
+        - [我只想靜靜一個人](./md_and_html/附庸風雅/我只想靜靜一個人.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/我只想靜靜一個人.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/我只想靜靜一個人.md.pdf)</font>
+
+        - [你快活嗎](./md_and_html/附庸風雅/你快活嗎.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/你快活嗎.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/你快活嗎.md.pdf)</font>
+
+        - [千年的笑話](./md_and_html/附庸風雅/千年的笑話.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/千年的笑話.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/千年的笑話.md.pdf)</font>
+
+        - [蝶兒飛](./md_and_html/附庸風雅/千年的蝶兒飛笑話.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/蝶兒飛.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/蝶兒飛.md.pdf)</font>
+
+        - [平凡是真美](./md_and_html/附庸風雅/平凡是真美.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/平凡是真美.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/平凡是真美.md.pdf)</font>
+
+        - [願蒼生皆成佛](./md_and_html/附庸風雅/願蒼生皆成佛.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/願蒼生皆成佛.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/願蒼生皆成佛.md.pdf)</font>
         
         - [雪夜（二）](./md_and_html/附庸風雅/雪夜之二.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/雪夜之二.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/雪夜之二.md.pdf)</font>
+
+        - [時間如品茶](./md_and_html/附庸風雅/時間如品茶.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/時間如品茶.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/時間如品茶.md.pdf)</font>
 
     #### <p id="雜文隨筆"> <p/>
     * #### 雜文隨筆
@@ -172,8 +188,13 @@
 
         - [祭文.天外有天](./md_and_html/祭文.天外有天.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/祭文.天外有天.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/祭文.天外有天.md.pdf)</font>
 
+        - [殭屍](./md_and_html/雜文隨筆/殭屍.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/殭屍.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/殭屍.md.pdf)</font>
         
+        - [摘野菜的樂趣](./md_and_html/雜文隨筆/摘野菜的樂趣.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/摘野菜的樂趣.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/摘野菜的樂趣.md.pdf)</font>
 
+        - [甜美的陷阱](./md_and_html/雜文隨筆/甜美的陷阱.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;<font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/甜美的陷阱.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/甜美的陷阱.md.pdf)</font>
+
+        - [小心法律合同陷阱](./md_and_html/雜文隨筆/甜美的陷阱.md#小心法律合同陷阱)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/甜美的陷阱.html#小心法律合同陷阱)</font>&nbsp; &nbsp;  <A HREF="./md_and_html/雜文隨筆/甜美的陷阱.md.pdf#page=1#小心法律合同陷阱"> <font size=1>pdf格式</font></A>
 
     #### <p id="技術博客文章目錄"> <p/>
     * # 技術博客文章目錄
@@ -248,6 +269,7 @@
 
         * [陰陽四調之簡潔標註方式](./md_and_html/客家話/陰陽四調之簡潔標註方式.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/陰陽四調之簡潔標註方式.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/陰陽四調之簡潔標註方式.md.pdf)</font>
 
+        * [語言化石之舅舅和糍粑的關係](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.md.pdf)</font>
 
     #### <p id="如何忽悠文科生編程"> <p/>
     * ## 如何忽悠文科生編程

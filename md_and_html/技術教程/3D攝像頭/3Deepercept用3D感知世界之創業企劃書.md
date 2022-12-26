@@ -150,6 +150,16 @@
   <p align="center" style="margin:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/3DSensor13.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;">   </p> 
+</div> <!-- end pictureWrapper_div -->
+
 <div style="margin-bottom: 100px;"> </div>
 
 
