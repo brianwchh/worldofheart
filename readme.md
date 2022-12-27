@@ -204,6 +204,8 @@
 
           - [時間如品茶](./md_and_html/附庸風雅/時間如品茶.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/時間如品茶.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/時間如品茶.md.pdf)</font>
 
+          - [飲水思源](./md_and_html/附庸風雅/飲水思源.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/飲水思源.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/飲水思源.md.pdf)</font>
+
       #### <p id="雜文隨筆"> <p/>
       * #### 雜文隨筆
           - [文化之於生命](./md_and_html/文化之於生命.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/文化之於生命.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/文化之於生命.md.pdf)</font>
@@ -291,9 +293,13 @@
 
           * [漢語的味道不在裝屄的滿大人中](./md_and_html/漢語的味道不在裝屄的滿大人中.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp;<font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/漢語的味道不在裝屄的滿大人中.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/漢語的味道不在裝屄的滿大人中.md.pdf)</font>
 
-          * [陰陽四調之簡潔標註方式](./md_and_html/客家話/陰陽四調之簡潔標註方式.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/陰陽四調之簡潔標註方式.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/陰陽四調之簡潔標註方式.md.pdf)</font>
+          * [陰陽四韻之簡潔標註方式](./md_and_html/客家話/陰陽四韻之簡潔標註方式.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/陰陽四韻之簡潔標註方式.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/陰陽四韻之簡潔標註方式.md.pdf)</font>
 
-          * [語言化石之舅舅和糍粑的關係](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.md.pdf)</font>
+        * [語言化石之舅舅和糍粑的關係](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/語言化石之舅舅和糍粑的關係.md.pdf)</font>
+
+        * [正本清源蠻屄之一起](./md_and_html/客家話/正本清源蠻屄之一起.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/正本清源蠻屄之一起.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/正本清源蠻屄之一起.md.pdf)</font>
+        
+        * [普通話應是來源於客家話](./md_and_html/客家話/普通話應是來源於客家話.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/普通話應是來源於客家話.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/普通話應是來源於客家話.md.pdf)</font>
 
       #### <p id="如何忽悠文科生編程"> <p/>
       * ## 如何忽悠文科生編程

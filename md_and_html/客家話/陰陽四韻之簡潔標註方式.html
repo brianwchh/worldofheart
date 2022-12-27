@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>陰陽四韻之簡潔標註方式.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<ul>
+<li><a href="../../tableOfContent.md"><font size=3>跳轉到博客目錄頁面</font></a>[<font size=2>在線閱讀</font>]                       <font size=2> [本地] </font><font size=3><a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h5 id="%E9%80%99%E7%AF%87%E6%96%87%E7%AB%A0%E6%AF%94%E6%88%91%E5%9C%A8%E9%80%99%E8%A3%8F%E5%88%86%E4%BA%AB%E7%9A%84%E4%BB%BB%E4%BD%95%E4%BB%A3%E7%A2%BC%E5%92%8C%E5%89%B5%E6%A5%AD%E9%A0%85%E7%9B%AE%E9%83%BD%E9%87%8D%E8%A6%81%E5%85%B6%E4%B8%AD%E7%9A%84%E7%99%BC%E7%8F%BE%E9%97%9C%E4%BF%82%E5%88%B0%E6%AF%8F%E4%B8%80%E5%80%8B%E4%BA%BA%E7%9A%84%E6%96%B9%E6%96%B9%E9%9D%A2%E9%9D%A2%E5%93%B2%E5%AD%B8%E6%AF%94%E7%A7%91%E5%AD%B8%E5%92%8C%E6%8A%80%E8%A1%93%E6%9B%B4%E9%87%8D%E8%A6%81%E5%93%B2%E5%AD%B8%E6%98%AF%E4%BA%BA%E7%94%9F%E7%A7%91%E5%AD%B8%E5%92%8C%E6%8A%80%E8%A1%93%E5%8F%AA%E6%98%AF%E5%96%AB%E9%A3%AF%E8%80%8C%E5%B7%B2"><em><em>這篇文章比我在這裏分享的任何代碼和創業項目都重要，其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，科學和技術只是喫飯而已！</em></em></h5>
+<h4 id="%E5%BF%83%E6%99%BA%E6%98%AF%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%93%8D%E6%8E%A7%E7%9A%84%E5%BF%83%E6%99%BA%E6%98%AF%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%93%8D%E6%8E%A7%E7%9A%84%E5%BF%83%E6%99%BA%E6%98%AF%E5%8F%AF%E4%BB%A5%E8%A2%AB%E6%93%8D%E6%8E%A7%E7%9A%84%E4%BD%A0%E6%89%80%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%845g6g%E5%BE%AE%E6%B3%A2%E8%85%A6%E6%A9%9F%E6%8E%A5%E5%8F%A3%E6%8A%80%E8%A1%93">心智是可以被操控的！心智是可以被操控的！心智是可以被操控的！你所不知道的5G/6G微波腦機接口技術！</h4>
+<h4 id="%E9%BB%9E%E6%93%8A%E4%B8%8B%E9%9D%A2%E9%8F%88%E6%8E%A5%E8%A8%AA%E5%95%8F">點擊下面鏈接訪問</h4>
+<ul>
+<li><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md"><font color=red>無眠月照無情門 . 失去自由的歌手</font></a><font size=1> [點擊此前往github在線閱讀]</font>                 <font size=1>本地模式  <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.html">html網頁版</a>     <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md.pdf">pdf版本</a> </font></li>
+<li>心学新解 : <a href="https://github.com/brianwchh/worldofheart">https://github.com/brianwchh/worldofheart</a>                <font size=1>本地模式  <a href="../../md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.html">html網頁版</a>     <a href="../../md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md.pdf">pdf版本</a> </font></li>
+</ul>
+<hr>
+</br>
+<p><strong><strong><p align="center" style="font-size: large;">陰陽四韻之簡潔標註方式</p></strong></strong></p>
+<p align="center" style="font-size: large;">阿柄</p>
+</br>
+<div align="left">
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/陰陽四調.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;"> 千字文  </p> 
+</div> <!-- end pictureWrapper_div -->
+</br>
+<p>休息陣間，無事亂翻書，想學下流傳千年的《千字文》，看到日jat9，我有點數不過來了。想起小時候數數，做加減，大人們作弄忽悠我說：手指不夠，用腳趾來湊！</p>
+<p>我不要啊~！</p>
+<p>想起小時候第一日老爸拖着我去幼兒園，我哭得淚眼闌珊，旁邊的村民都認識彼此，又忽悠我說：汝唔要恁笨，你就問你爸，你自己爲啥不幼兒園，爲啥要你去～。我也是真如是哭着對他喊。害得周圍的人都樂得笑呵呵的。幼兒園啥事我都不記得，唯獨只記得這件事。</p>
+<p>現在重學漢字，感覺昨日重現。</p>
+<p>只是這9數字好大頭，我看到這字，心裏在做減法，只是中央處理器太慢，得想像腳趾和手指，9-6=3，哦~，是陰去入聲，啊唷，真不容易啊。昃zak7，7-6=1，是陰平入聲，累死我了。記住1到6或許大多人還馬馬虎虎，只要能想起下面這張圖表：</p>
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+  <div class="ImageWrapperFlex" >
+   <div class="FlexSide"  ></div>
+   <image class="FlexImage"   src='./images/六調九聲.png'/>
+   <div class="FlexSide" ></div>
+  </div>
+  <p align="center" style="margin:0px;"> 陰陽四調或曰6調12聲圖示  </p> 
+</div> <!-- end pictureWrapper_div -->
+</br>
+</br>
+<p>但其實，在標記上還能在簡單點，就不會嚇唬人了，就是只需記住1到3，就能很方便地借助上圖來讀字的聲調了。</p>
+<p>香港粵語協會推廣的很巧妙地利用了入聲字結尾的特徵，即只要碰到tpkm等這些少數的入聲標誌，無須去腦子計算該字究竟是7到12中的哪個，只需按照1到6的方式來讀這半拍的入聲即可。</p>
+<p>這個還可以進一步簡化，如果引入一個陰陽標識符號，比如&quot;+&quot;,默認爲陰，即1，2，3分別對應陰平/上/去，如果碰到tpkm等入音結尾的，則應該知道按哪個調和聲去發這個入聲字。反之，1+，2+，3+，則爲陽平/上/去，碰到入聲音尾，也同上處理。在當前粵拼輸入法的基礎上，聲調可以變成如下</p>
+<pre><code>    1 ：v ，2  : x   ，  3 : q 
+    1+：vv，2+ ： xx ,   3+: qq
+</code></pre>
+<p>這樣一來，也更容易理解漢字發音的規則，當一個人不知道一個字發多高音的時候，陽聲當着濁聲來發，聲音濁了，自然就成了低音了，即多一些類似振動，比如一些男人說話全是振動的音，耳朵要豎起來才能分辨其中字，呵呵:)。而陰聲，則近女聲，比較清音，即使有喉嚨音，也不振動，粵語女聲爲啥很動聽，應該就是其清音和濁音發得很分明。男聲說粵語大多都是把陰聲清音當着是高調聲來振動。</p>
+<p>個人覺得這種標識方式，能夠很簡單形象地傳達重語輕聲之6調12聲漢字音律。能讓初學者很容易入門。</p>
+<style>
+
+.ImageWrapperFlex {
+    display: flex; 
+    flex-direction: row; 
+    margin-top: 1px; 
+    margin-bottom: 1px;
+
+    width: 100% ;
+}
+
+.FlexSide {
+    flex-basis: 0px ;
+    flex:1;
+
+}
+
+
+
+/* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+@media only screen and (min-width: 600px) {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+
+}
+
+ /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+@media only screen and (max-width: 600px) {
+    
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:1;
+        height:auto; 
+     
+    }
+
+}
+
+/* style for print !important 設置打印圖片大小*/
+@media print {
+
+    .FlexImage {
+        flex-basis: 600px ;
+        flex:0;    
+        height:auto; 
+        max-width: 600px;
+        min-width: 600px;
+     
+    }
+}
+
+
+</style>
+</body>
+</html>
