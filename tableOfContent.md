@@ -72,6 +72,9 @@
 
         - [電池驛站——解決電車充電難題](./md_and_html/書生論國事/電池驛站——解決電車充電難題.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/書生論國事/電池驛站——解決電車充電難題.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/書生論國事/電池驛站——解決電車充電難題.md.pdf)</font> 
 
+        - [模塊化汽車電池管理系統](./md_and_html/書生論國事/模塊化汽車電池管理系統.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/書生論國事/模塊化汽車電池管理系統.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/書生論國事/模塊化汽車電池管理系統.md.pdf)</font>
+        
+
     #### <p id="創業知識與技術分享"> <p/>
     * #### 創業知識與技術分享
         - [我的創業項目:stereo vision 3D攝像頭FPGA實現之源碼與教程](#3D攝像頭技術教程)
