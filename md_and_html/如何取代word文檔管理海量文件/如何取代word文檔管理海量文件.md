@@ -32,32 +32,112 @@
 markdown文件的好處是：非常輕量，不依賴任何操作系統。一個文件在手，你可以管理網頁（手機+平板+電腦端），然後又可以根據網頁打印生成pdf，掌握一定的html+css語法，你可以隨心所慾自定義地編輯文字和圖片，而且還非常有利於管理和查詢多年所有的文件。真正做有用到，一個文件在手，管理多個終端的輸出效果。
 
 雖然有些網站目前並不支持markdown所有語法和html的語法。但我們可以用支持markdown語法的編輯器，比如visual studio code軟件，很多程序員用它來開發程序，但也可以用來寫文章，因爲它支持markdown語法。然後由markdown生成靜態的html文件，大部分網站都支持html文件的顯示。因爲網頁本身就是html。而且，這個html你還可以在本地離線模式用瀏覽器來閱讀，比如: 
-
-
-
-點擊內部跳轉鏈接，還能自動打開不同文件夾中的文件。免去了自己滿電腦找尋文件的麻煩。用多層目錄，可以輕鬆地管理海量的文件。
+### 如何將預覽markdown在線效果 
+<!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+<div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+<div class="ImageWrapperFlex" >
+<div class="FlexSide"  ></div>
+<image class="FlexImage"   src='./images/preview.png'/>
+<div class="FlexSide" ></div>
+</div>
+<p align="center" style="margin:0px;"> 用 microsoft code 編輯器預覽 </p> 
+</div> <!-- end pictureWrapper_div -->
 
 
 ### 如何將markdown文件轉成html   
-
-
-### 如何設置屏幕顯示效果
-
-
-### 如何設置打印（pdf）佈局效果，同一個內容，還能設置其pdf模式的ppt顯示效果，如今我們很多人的商演都用pdf來代替體積龐大的ppt文件，再者是因爲pdf可以跨平臺。
-
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
 <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
 <div class="ImageWrapperFlex" >
 <div class="FlexSide"  ></div>
-<image class="FlexImage"   src='../images/xhyj.png'/>
+<image class="FlexImage"   src='./images/exportHtml.png'/>
 <div class="FlexSide" ></div>
 </div>
-<p align="center" style="margin:0px;"> 圖1 </p> 
+<p align="center" style="margin:0px;"> 鼠標右擊生成html</p> 
 </div> <!-- end pictureWrapper_div -->
 
+點擊內部跳轉鏈接，還能自動打開不同文件夾中的文件。免去了自己滿電腦找尋文件的麻煩。用多層目錄，可以輕鬆地管理海量的文件。
 
+### 如何設置屏幕顯示效果
+### 如何設置打印（pdf）佈局效果，同一個內容，還能設置其pdf模式的ppt顯示效果，如今我們很多人的商演都用pdf來代替體積龐大的ppt文件，再者是因爲pdf可以跨平臺。
+
+        <style>
+
+            .ImageWrapperFlex {
+                display: flex; 
+                flex-direction: row; 
+                margin-top: 1px; 
+                margin-bottom: 1px;
+
+                width: 100% ;
+            }
+
+            .FlexSide {
+                flex-basis: 0px ;
+                flex:1;
+
+            }
+
+
+
+            /* large device screen 設置熒幕顯示圖片大小（電腦等大型屏幕）*/
+            @media only screen and (min-width: 600px) {
+
+                .FlexImage {
+                    flex-basis: 700px ;
+                    flex:0;    
+                    height:auto; 
+                    max-width: 700px;
+                    min-width: 700px;
+                
+                }
+
+            }
+
+            /* small device screen 設置熒幕顯示圖片大小（平板手機等屏幕）*/
+            @media only screen and (max-width: 600px) {
+                
+                .FlexImage {
+                    flex-basis: 600px ;
+                    flex:1;
+                    height:auto; 
+                
+                }
+
+            }
+
+            /* style for print !important 設置打印圖片大小*/
+            @media print {
+
+                .FlexImage {
+                    flex-basis: 600px ;
+                    flex:0;    
+                    height:auto; 
+                    max-width: 600px;
+                    min-width: 600px;
+                
+                }
+            }
+
+        </style>
+
+
+<!-- 共用的css -->
+<!-- <head>
+    <link rel="stylesheet" href="../common_css/common_style.css">
+</head> -->
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
+
+</br>
 
 <style>
 
@@ -82,11 +162,11 @@ markdown文件的好處是：非常輕量，不依賴任何操作系統。一個
 @media only screen and (min-width: 600px) {
 
     .FlexImage {
-        flex-basis: 700px ;
+        flex-basis: 900px ;
         flex:0;    
         height:auto; 
-        max-width: 700px;
-        min-width: 700px;
+        max-width: 900px;
+        min-width: 900px;
      
     }
 
