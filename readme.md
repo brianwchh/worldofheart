@@ -287,6 +287,8 @@
 
         - [子在川頭曰](./md_and_html/雜文隨筆/我是個婊子.md#子在川頭曰)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/我是個婊子.html#子在川頭曰)</font>&nbsp; &nbsp;  <A HREF="./md_and_html/雜文隨筆/我是個婊子.md.pdf#page=3#子在川頭曰"> <font size=1>pdf格式</font></A>
 
+        - [再論九](./md_and_html/雜文隨筆/再論九.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/再論九.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/再論九.md.pdf)</font> 
+
       #### <p id="技術博客文章目錄"> <p/>
       * # 技術博客文章目錄
           #### <p id="3D攝像頭技術教程"> <p/>
