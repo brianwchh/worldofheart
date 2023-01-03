@@ -3,6 +3,28 @@
   * [<font size=4 color=red>無眠月照無情門 . 失去自由的歌手</font>](./md_and_html/無眠月照無情門.md)[在線閱覽]&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=1> [本地閱覽]</font> <font size=2>[*_html網頁格式_*](./md_and_html/無眠月照無情門.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/無眠月照無情門.md.pdf)</font>
   * [<font size=4>心學新解</font>](./md_and_html/心學新解.md)[在線閱覽] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font size=1> [本地閱覽]</font> <font size=2>[*_html網頁格式_*](./md_and_html/心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/心學新解.md.pdf)</font>
 
+
+<div align="center"> 
+
+****<p align="center" style="font-size: 16px;">西子</p>****
+
+<p align="center" style="font-size: 12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
+
+<div style="font-size: 13px;" >
+
+世人皆唱東坡詞，無人知我歌中淚。   
+胭脂淚痕君不見，肚藏淚酒君不知。  
+法律珠鍊人中鳳，舞臺深處天牢夢。  
+鍍金屠門千豬過，三寸魷魚萬人舔。  
+君入西子渡津口，她閱君腦千秋雪。  
+
+</div>
+
+<p style="font-size: 10px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2022年11月10日 於韓國濟州島  </p>     
+
+</div>
+
+
 #
           世間無難事只怕有心人！相信所相信，自信所自信！本份！時間就是答案！   
           心，也許會迷失一陣，或許也有殤，但流淚不是懦弱，更不會且不能放棄!

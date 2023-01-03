@@ -28,6 +28,26 @@
     * #### 無眠月照無情門 . 失去自由的歌手   
         - [<font color=red>無眠月照無情門 . 失去自由的歌手</font>](./md_and_html/無眠月照無情門.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/無眠月照無情門.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/無眠月照無情門.md.pdf)</font>
 
+        <div align="center"> 
+
+        ****<p align="center" style="font-size: 16px;">西子</p>****
+
+        <p align="center" style="font-size: 12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
+
+        <div style="font-size: 13px;" >
+
+        世人皆唱東坡詞，無人知我歌中淚。   
+        胭脂淚痕君不見，肚藏淚酒君不知。  
+        法律珠鍊人中鳳，舞臺深處天牢夢。  
+        鍍金屠門千豬過，三寸魷魚萬人舔。  
+        君入西子渡津口，她閱君腦千秋雪。  
+
+        </div>
+
+        <p style="font-size: 10px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2022年11月10日 於韓國濟州島  </p>     
+
+        </div>
+
         #### <p id="天方夜譚之國策論"> <p/>
     * #### 天方夜譚之書生國策論   
            修身心。齊家。平天下。
