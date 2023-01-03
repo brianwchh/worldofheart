@@ -348,7 +348,10 @@
 
         * [正本清源蠻屄之一起](./md_and_html/客家話/正本清源蠻屄之一起.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/正本清源蠻屄之一起.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/正本清源蠻屄之一起.md.pdf)</font>
         
-        * [普通話應是來源於客家話](./md_and_html/客家話/普通話應是來源於客家話.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/普通話應是來源於客家話.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/普通話應是來源於客家話.md.pdf)</font>
+        * [普通話應是來源於客家話](./md_and_html/客家話/普通話應是來源於客家話.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/普通話應是來源於客家話.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/普通話應是來源於客家話.md.pdf)</font>  
+
+        * [智障蠻屄改漢語的一些規律](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md.pdf)</font>
+        
 
 
         

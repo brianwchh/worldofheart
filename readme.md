@@ -100,7 +100,7 @@
 
       #### <p id="創業知識與技術分享"> <p/>
       * #### 創業知識與技術分享
-          - [我的創業項目:stereo vision 3D攝像頭FPGA實現之源碼與教程](#3D攝像頭技術教程)
+          - [我的創業項目:stereo vision 3D攝像頭FPGA實現之源碼與教程](./md_and_html/技術教程/3D攝像頭/教程簡介.md)&nbsp;&nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/技術教程/3D攝像頭/教程簡介.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/技術教程/3D攝像頭/教程簡介.md.pdf)</font>
 
           - [VR家庭影院——變革電腦看電影之體驗](./md_and_html/書生論國事/VR家庭影院——變革電腦看電影之體驗.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/書生論國事/VR家庭影院——變革電腦看電影之體驗.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/書生論國事/VR家庭影院——變革電腦看電影之體驗.md.pdf)</font>
 
@@ -367,6 +367,9 @@
         * [正本清源蠻屄之一起](./md_and_html/客家話/正本清源蠻屄之一起.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/正本清源蠻屄之一起.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/正本清源蠻屄之一起.md.pdf)</font>
         
         * [普通話應是來源於客家話](./md_and_html/客家話/普通話應是來源於客家話.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/普通話應是來源於客家話.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/普通話應是來源於客家話.md.pdf)</font>
+
+        * [智障蠻屄改漢語的一些規律](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md.pdf)</font>
+        
 
       #### <p id="如何忽悠文科生編程"> <p/>
       * ## 如何忽悠文科生編程
