@@ -1,5 +1,26 @@
 ****
 - [<font size=3>跳轉到博客目錄頁面</font>](../../../../tableOfContent.md)[<font size=2>在線閱讀</font>]&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  <font size=2> [本地] </font><font size=3>[*_點擊此查看html網頁格式_*](../../../tableOfContent.html)&nbsp; &nbsp; [*_pdf格式_*](../../../tableOfContent.md.pdf)</font>
+
+<div align="center"> 
+
+****<p align="center" style="font-size: 16px;">西子</p>****
+
+<p align="center" style="font-size: 12px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
+
+<div style="font-size: 13px;" >
+
+世人皆唱東坡詞，無人知我歌中淚。   
+胭脂淚痕君不見，肚藏淚酒君不知。  
+法律珠鍊人中鳳，舞臺深處天牢夢。  
+鍍金屠門千豬過，三寸魷魚萬人舔。  
+君入西子渡津口，她閱君腦千秋雪。  
+
+</div>
+
+<p style="font-size: 10px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2022年11月10日 於韓國濟州島  </p>     
+
+</div>
+
 ****
 
 ##### *_這篇文章比我在這裏分享的任何代碼和創業項目都重要，其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，科學和技術只是喫飯而已！_*
