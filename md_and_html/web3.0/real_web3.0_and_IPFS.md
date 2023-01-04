@@ -20,22 +20,9 @@
   </div>
 
 -  [心学新解 ](https://github.com/brianwchh/worldofheart)<font size=1> [點擊此前往github在線閱讀]</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=1>本地模式 &nbsp;[html網頁版](../../md_and_html/心學新解.html) &nbsp;&nbsp;&nbsp; [pdf版本](../../md_and_html/心學新解.md.pdf) </font>
+         
 
-      <!-- <div align="left"  style="font-size:12px;overflow-wrap: break-word;" >  -->
-
-       此文章比我在此處分享的任何代碼與創業項目都重要！其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，而科學和技術只是喫飯而已！ 
-
-       我們先入爲主的自傲是認知的屏障！認知是其本身最大的障礙！世界非如所見！真相和座標一樣依賴於原點，沒有絕對，只有相對值！人類不知來源，亦不解天外飛碟（UFO），豈敢無知斷言我們所見所知是真相！他們一直在封鎖信息！人類是一種被洗腦很深的存在。 
-
-       我不敢言所知是真相，但深覺有分享之意義與義務！  
-
-       獲知信息者必須知：生命安全與信息同等重要！切莫以爲你所閱是兒戲，而忽視自身安全。他們對每個人瞭如指掌，而要證明牠們的存在卻是非常困難。莫貪天上掉餡餅，比如恰巧的投資機會，工作機會，等等發大財的機會，和生命安全相比，黃金比糞土還不值錢。切莫與之單獨相處，其話連一個標點都莫信！
-
-       堅守本心本份，牢記古訓：江太公釣魚，願者上鉤！也無須恐懼，似有規則，人淨且不被忽悠則鬼神難奈！？ 逃不掉無非一死重來！人之智商與之相比，實似螞蟻，近乎無。人須謙虛認清自身的不完美！
-       
-       注意安全，保存火種，傳播信息！
-
-      <!-- </div> -->
+      > *_<span><p><span align="left"  style="margin:0px;padding:0px;font-size:12px; white-space : pre-wrap !important;  " > 此文章比我在此處分享的任何代碼與創業項目都重要！其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，而科學和技術只是喫飯而已!</span></p><p><span align="left"  style="margin:0px;padding:0px;font-size:12px; white-space : pre-wrap !important;  " >我們先入爲主的自傲是認知的屏障！認知是其本身最大的障礙！世界非如所見！真相和座標一樣依賴於原點，沒有絕對，只有相對值！人類不知來源，亦不解天外飛碟（UFO），豈敢無知斷言我們所見所知是真相！他們一直在封鎖信息！人類是一種被洗腦很深的存在。</span></p><p><span align="left"  style="margin:0px;padding:0px;font-size:12px; white-space : pre-wrap !important;  " >我不敢言所知是真相，但深覺有分享之意義與義務！</br>獲知信息者必須知：生命安全與信息同等重要！切莫以爲你所閱是兒戲，而忽視自身安全。他們對每個人瞭如指掌，而要證明牠們的存在卻是非常困難。莫貪天上掉餡餅，比如恰巧的投資機會，工作機會，等等發大財的機會，和生命安全相比，黃金比糞土還不值錢。切莫與之單獨相處，其話連一個標點都莫信！</span></p><p><span align="left"  style="margin:0px;padding:0px;font-size:12px; white-space : pre-wrap !important;  " >堅守本心本份，牢記古訓：江太公釣魚，願者上鉤！也無須恐懼，似有規則，人淨且不被忽悠則鬼神難奈！？？？？？逃不掉無非一死重來！人之智商與之相比，實似螞蟻，近乎無。人須謙虛認清自身的不完美！</span></p><p><span align="left"  style="margin:0px;padding:0px;font-size:12px; white-space : pre-wrap !important;  " >注意安全，保存火種，傳播信息！</span></p></span>_*
 
 ****
 
@@ -70,7 +57,7 @@
    <image class="FlexImage"   src='./images/realweb3.0_1.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;">   </p> 
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
@@ -80,7 +67,7 @@
    <image class="FlexImage"   src='./images/realweb3.0_2.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;">   </p> 
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
@@ -90,7 +77,7 @@
    <image class="FlexImage"   src='./images/realweb3.0_3.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;">   </p> 
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
@@ -100,7 +87,7 @@
    <image class="FlexImage"   src='./images/realweb3.0_4.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;">   </p> 
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
@@ -110,7 +97,7 @@
    <image class="FlexImage"   src='./images/realweb3.0_5.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;">   </p> 
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
@@ -120,7 +107,7 @@
    <image class="FlexImage"   src='./images/realweb3.0_6.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;">   </p> 
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
 <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
@@ -130,7 +117,7 @@
    <image class="FlexImage"   src='./images/realweb3.0_7.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;">   </p> 
+  <p align="center" style="margin:0px;padding:0px;">   </p> 
 </div> <!-- end pictureWrapper_div -->
 
 
