@@ -38,11 +38,12 @@
 
     - [Disparity 像素視差](#Disparity)
     - [Census transform 比中二值編碼](#比中二值編碼) 
+        - [Census transform C++程序實現](#Census_transform程序實現)
     - [matching cost function 特徵值匹配函數](#特徵值匹配函數)
 
 
 
-### <p id="Disparity"> <p/>
+<a id="Disparity"> </a>
 
 * #### Disparity 像素視差
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
@@ -71,10 +72,12 @@
     <p align="center" style="margin:0px;">   </p> 
     </div> <!-- end pictureWrapper_div -->
 
-    以上就是disparity及其用途和計算公式。  
+    以上就是disparity及其用途和計算公式。 
+    
+    ***_爲了不造成更多的理解困難，這裏只列出其distance（深度信息）即 z 如何從disparity和像素座標(r,c)信息中提取3D座標的x,y值會在以後的教程中提及，需要更多的機器視覺(computer vision)的內容作鋪墊，一步一步來，不急。_*** 
 
 
-### <p id="比中二值編碼"> <p/>
+<a id="比中二值編碼"> </a>
 
 * #### census transform 比中二值編碼
 
@@ -88,15 +91,31 @@
     <p align="center" style="margin:0px;">   </p> 
     </div> <!-- end pictureWrapper_div --> 
 
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/代價函數cost_function詳細講解5.png'/>
+    <div class="FlexSide" ></div>
+    </div>
+    <p align="center" style="margin:0px;">   </p> 
+    </div> <!-- end pictureWrapper_div --> 
+
     所謂census transform，我記不清中文翻譯是什麼名字了，這裏且稱之爲比中二值編碼。爲何要這個census transform呢？ 
 
     原因如果只是顏色，比如我們常用的grayscale，不足以做左右兩邊像素點的匹配，我們不能說兩邊圖像的像素值一樣就是匹配點，這是不可能做好的，首先，由於左右圖像分別來自兩個攝像頭，其像素值是一般很難相同的，因爲曝光參數很難做到兩邊一致。
 
     那有什麼特徵能用來描述兩張照片中的匹配點呢？很自然地，我們會想到computer vision知識里的各種特徵算子，比如surf之類的（逃難3年度多沒碰這內容了，交還給老師了，反正呢這時ROS機器人slam里常用的，屬於比原始的scale shift rotation invariant計算起來比較快的，其核心就是計算像素點其各個方向的梯度，然後以其最大值爲index0，然後逆時針方向做成一個一維vector，用來表徵其與相鄰像素的顏色變化關係，這樣就比單純用像素值來做匹配靠譜多了。），但這種特徵點匹配算法過於複雜，而且其包含的周圍像素也就那麼幾個，即上下左右，然後就是斜對角的幾個鄰居。這種算子計算量大。
 
-    如何找一個計算速度快，而且又靠譜的算法，用以表徵某像素與鄰居的顏色漸變關係呢？ census transform提出了一個簡潔的做法，即以此像素爲中心，畫一個方框，比如5x7,長7個像素，寬5個像素，然後框內的鄰居的像素值與該中心像素做比較，比之大爲1，反之爲0，這樣就能形成一個二值化的特徵map，然後按照固定順序將它展開，形成一個一維向量，這樣的census transform之後的左右圖像信息來做匹配。這種特徵算法沒考慮scale，和rotation，但卻依然能很有效地工作，是因爲我們雙目本身依據校準過了，沒有rotation，其匹配目標都在一條水平線上，scale也一致。如上圖。 
+    如何找一個計算速度快，而且又靠譜的算法，用以表徵某像素與鄰居的顏色漸變關係呢？ census transform提出了一個簡潔的做法，即以此像素爲中心，畫一個方框，比如5x7,長7個像素，寬5個像素，然後框內的鄰居的像素值與該中心像素做比較，比之大爲1，反之爲0，這樣就能形成一個二值化的特徵map，然後按照固定順序將它展開，形成一個一維向量，這樣的census transform之後的左右圖像信息來做匹配。這種特徵算法沒考慮scale，和rotation，但卻依然能很有效地工作，是因爲我們雙目本身依據校準過了，沒有rotation，其匹配目標都在一條水平線上，scale也一致。如上圖。    
 
-### <p id="特徵值匹配函數"> <p/>
+
+    * #### <a id="Census_transform程序實現"> </a> Census transform C++ 程序實現
+
+
+
+
+### <a id="特徵值匹配函數"> </a>
 
 * #### matching cost function 特徵值匹配函數
 

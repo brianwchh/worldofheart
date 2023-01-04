@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/brian/Desktop/grassrootsstartup-stereoVision/algorithm_c/src/stereo_cpu.cpp
+stdlib.h
+-
+iostream
+-
+sstream
+-
+string
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/contrib/contrib.hpp
+-
+stdio.h
+/home/brian/Desktop/grassrootsstartup-stereoVision/algorithm_c/src/stdio.h
+unistd.h
+-
+

@@ -1,0 +1,3 @@
+/home/brian/Desktop/grassrootsstartup-stereoVision/algorithm_c/build/CMakeFiles/rebuild_cache.dir
+/home/brian/Desktop/grassrootsstartup-stereoVision/algorithm_c/build/CMakeFiles/edit_cache.dir
+/home/brian/Desktop/grassrootsstartup-stereoVision/algorithm_c/build/CMakeFiles/stereo_cpu.dir
