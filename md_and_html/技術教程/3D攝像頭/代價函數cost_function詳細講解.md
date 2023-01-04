@@ -110,7 +110,7 @@
     如何找一個計算速度快，而且又靠譜的算法，用以表徵某像素與鄰居的顏色漸變關係呢？ census transform提出了一個簡潔的做法，即以此像素爲中心，畫一個方框，比如5x7,長7個像素，寬5個像素，然後框內的鄰居的像素值與該中心像素做比較，比之大爲1，反之爲0，這樣就能形成一個二值化的特徵map，然後按照固定順序將它展開，形成一個一維向量，這樣的census transform之後的左右圖像信息來做匹配。這種特徵算法沒考慮scale，和rotation，但卻依然能很有效地工作，是因爲我們雙目本身依據校準過了，沒有rotation，其匹配目標都在一條水平線上，scale也一致。如上圖。    
 
 
-    * #### <a id="Census_transform程序實現"> </a> Census transform C++ 程序實現
+    * #### <a id="Census_transform程序實現"> </a> <a name="Census_transform程序實現"> </a>Census transform C++ 程序實現
 
 
 
