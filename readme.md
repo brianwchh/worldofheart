@@ -11,7 +11,7 @@
 
 -  [心学心解 ](https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md)<font size=1><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=1>本地模式 --->&nbsp;[html網頁版](./md_and_html/心學新解.html) &nbsp;&nbsp;&nbsp; [pdf版本](./md_and_html/心學新解.md.pdf) </font>
 
-    > <sub>此文比我分享的任何代碼與創業項目都重要！其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，而科學和技術只是喫飯而已!</sub>
+    > **<sub>此文比我分享的任何代碼與創業項目都重要！其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，而科學和技術只是喫飯而已!</sub>**
 
 </br>
 
