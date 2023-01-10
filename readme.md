@@ -275,6 +275,9 @@
         - [不做內分泌的奴隸](./md_and_html/附庸風雅/不做內分泌的奴隸.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/不做內分泌的奴隸.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/不做內分泌的奴隸.md.pdf)</font> 
 
         - [世間若女子](./md_and_html/附庸風雅/世間若女子.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/世間若女子.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/世間若女子.md.pdf)</font> 
+
+        - [一部聊齋道真情](./md_and_html/附庸風雅/一部聊齋道真情.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/一部聊齋道真情.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/一部聊齋道真情.md.pdf)</font> 
+        
         
 
     #### <p id="雜文隨筆"> <p/>
