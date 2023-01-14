@@ -277,6 +277,10 @@
 
         - [再論九](./md_and_html/雜文隨筆/再論九.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/再論九.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/再論九.md.pdf)</font> 
 
+        - [爲何滿大人一講古就像無喫藥](./md_and_html/雜文隨筆/爲何滿大人一講古就像無喫藥.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/爲何滿大人一講古就像無喫藥.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/爲何滿大人一講古就像無喫藥.md.pdf)</font>
+        
+        - [一餐飯勝百年屎](./md_and_html/雜文隨筆/一餐飯勝百年屎.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/一餐飯勝百年屎.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/一餐飯勝百年屎.md.pdf)</font>
+
 
     #### <p id="技術博客文章目錄"> <p/>
     * # 技術博客文章目錄
@@ -350,6 +354,9 @@
         * [普通話應是來源於客家話](./md_and_html/客家話/普通話應是來源於客家話.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/普通話應是來源於客家話.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/普通話應是來源於客家話.md.pdf)</font>  
 
         * [智障蠻屄改漢語的一些規律](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md.pdf)</font>
+
+        * [各地客語能交流當神奇](./md_and_html/客家話/各地客語能交流當神奇.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/各地客語能交流當神奇.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/各地客語能交流當神奇.md.pdf)</font>
+        
         
 
 
