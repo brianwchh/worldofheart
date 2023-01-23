@@ -1,5 +1,10 @@
 - [返回首页](./readme.md)[在線閱覽] &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  <font size=1> [本地模式]</font><font size=2>[*_html網頁格式_*](./readme.html)&nbsp; &nbsp; [*_pdf格式_*](./readme.md.pdf) </font>
 --- 
+
+- [<font size=4>**鄧紫棋解解的小說——2507抬上帝入天坑**</font>](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font>
+
+--- 
+
 * # 使用方法介紹
     **_【提示】_** 在github或支持markdown的網站上閱讀，請點擊左邊第一個目錄跳轉鏈接，即[在線閱讀]模式，如果已經下載到了本地，請使用瀏覽器html和pdf版本，（請下載支持目錄跳轉的pdf閱讀軟件，但其實瀏覽器（比如google chrome）也支持pdf模式，而且還支持自動跳轉。相信你也會想用這種方式來管理自己本地雜亂無章的文檔，待你回望人生來時路時，不會踏雪無痕，或腳步燐亂以致要找的記憶無處可尋。如果你還在用word文檔，就有點像是現代人不會用電腦一樣，過時咯。   
 
@@ -8,6 +13,7 @@
     具體教程點擊此鏈接： <font size=1>[<font size=3> *_如何取代word文檔管理海量文件_* </font>](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.md)[在線閱覽]</font> &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    <font size=1> 下載至本地閱覽</font> <font size=3>[*_點擊此查看html網頁格式_*](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/如何取代word文檔管理海量文件/如何取代word文檔管理海量文件.md.pdf)</font>
 
 * # 文章分類
+    - [<font color=red>鄧紫棋解解的小說——2507抬上帝入天坑</font>](#鄧紫棋解解的小說——2507抬上帝入天坑)
     - [一切因緣她(心學)](#一切因緣她)
     - [<font color=red>無眠月照無情門 . 失去自由的歌手</font>](#無眠月照無情門)
     - [天方夜譚之國策論](#天方夜譚之國策論)
@@ -20,6 +26,10 @@
 ***
 #### <p id="博客目錄"> <p/>  
 * # 博客目錄
+
+    #### <p id="鄧紫棋解解的小說——2507抬上帝入天坑"> <p/>
+    - [<font size=3>**鄧紫棋解解的小說——2507抬上帝入天坑**</font>](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font>
+
     #### <p id="一切因緣她"> <p/>
     - #### 一切因緣她（心學）   
         - [心學心解](./md_and_html/心學新解.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/心學新解.md.pdf)</font>
