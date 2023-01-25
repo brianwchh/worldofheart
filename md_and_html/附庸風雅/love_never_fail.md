@@ -91,10 +91,12 @@
 <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
   <div class="ImageWrapperFlex" >
    <div class="FlexSide"  ></div>
-   <image class="FlexImage"   src='./images/和尚.png'/>
+   <image class="FlexImage"   src='./images/dzq.png'/>
    <div class="FlexSide" ></div>
   </div>
-  <p align="center" style="margin:0px;"> 在深圳 </p> 
+
+  <span >  喫完辣面的鄧紫棋 </br> [GEM VLOG #7 兩倍辣的地獄辣麵大挑戰](https://youtu.be/2GyPezOAT3s)</span>
+
 </div> <!-- end pictureWrapper_div -->
 
 

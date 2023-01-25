@@ -255,6 +255,8 @@
         - [一部聊齋道真情](./md_and_html/心學新解.md#一部聊齋道真情)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/心學新解.html#一部聊齋道真情)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/一部聊齋道真情.md.pdf)</font> 
 
         - [伊人](./md_and_html/附庸風雅/伊人.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/伊人.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/伊人.md.pdf)</font> 
+
+        - [迷路的感覺](./md_and_html/附庸風雅/迷路的感覺.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/附庸風雅/迷路的感覺.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/附庸風雅/迷路的感覺.md.pdf)</font> 
         
 
     #### <p id="雜文隨筆"> <p/>
@@ -340,6 +342,8 @@
     #### <p id="客家話學習"> <p/>
     * ## 客家話學習(寧賣祖宗田勿忘祖宗言)   
         <font size=2>*_客家話日常用語保留了好多古漢語啲雅言，譬如，其/涯來矣，行行踏踏...，一點也不覺得彆扭拗口_* </font>
+
+        - [認清和正確使用文明的源頭——膣屄](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md.pdf)</font>
 
         - [阿姆話四方言](./md_and_html/客家話/阿姆話四方言.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/阿姆話四方言.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/阿姆話四方言.md.pdf)</font>
 
