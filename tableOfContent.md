@@ -299,6 +299,10 @@
 
         - [畜生，他人墳頭土遲早加倍還](./md_and_html/雜文隨筆/畜生，他人墳頭土遲早加倍還.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/畜生，他人墳頭土遲早加倍還.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/畜生，他人墳頭土遲早加倍還.md.pdf)</font>
 
+        - [蠻屄的假大空文化](./md_and_html/雜文隨筆/蠻屄的假大空文化.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/蠻屄的假大空文化.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/蠻屄的假大空文化.md.pdf)</font>
+
+        - [被冒犯嘅猴子](./md_and_html/雜文隨筆/被冒犯嘅猴子.md)&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/雜文隨筆/被冒犯嘅猴子.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/雜文隨筆/被冒犯嘅猴子.md.pdf)</font>
+
 
     #### <p id="技術博客文章目錄"> <p/>
     * # 技術博客文章目錄
@@ -344,6 +348,8 @@
         <font size=2>*_客家話日常用語保留了好多古漢語啲雅言，譬如，其/涯來矣，行行踏踏...，一點也不覺得彆扭拗口_* </font>
 
         - [認清和正確使用文明的源頭——膣屄](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md.pdf)</font>
+
+        - [客家歌曲比胡言亂語更有前景](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.md.pdf)</font>
 
         - [阿姆話四方言](./md_and_html/客家話/阿姆話四方言.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/阿姆話四方言.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/阿姆話四方言.md.pdf)</font>
 

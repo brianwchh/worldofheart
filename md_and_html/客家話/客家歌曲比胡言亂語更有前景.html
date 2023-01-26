@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>客家歌曲比胡言亂語更有前景.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<hr>
+<ul>
+<li><a href="../../tableOfContent.md"><font size=3>跳轉到博客目錄頁面</font></a>&lt;---[<font size=2>在線閱讀</font>]                       <font size=2> [本地] ---&gt;</font><font size=3><a href="../../tableOfContent.html"><em><em>點擊此查看html網頁格式</em></em></a>    <a href="../../tableOfContent.md.pdf"><em><em>pdf格式</em></em></a></font></li>
+</ul>
+<hr>
+<h3 id="p-style%22font-size-23px-font-weight900%22%E7%89%B9%E5%88%A5%E6%8E%A8%E8%96%A6%E6%96%87%E7%AB%A0p"><p style="font-size: 23px; font-weight:900;">特別推薦文章</p></h3>
+<ul>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md"><font color=red>無眠月照無情門 . 失去自由的歌手</font></a><font size=2> &lt;---[點擊此前往github在線閱讀]</font>                 <font size=3>本地模式---&gt;  <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.html">html網頁版</a>     <a href="../../md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md.pdf">pdf版本</a> </font></p>
+  <div align=center>
+<p><sub>西子</br>                       阿柄</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</br>                    2022年11月10日 於韓國濟州島</sub></p>
+  </div>
+</li>
+<li>
+<p><a href="https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md">心学心解 </a><font size=2>&lt;---[點擊此前往github在線閱讀]</font>                <font size=3>本地模式 ---&gt; <a href="../../md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.html">html網頁版</a>     <a href="../../md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md.pdf">pdf版本</a> </font></p>
+<blockquote>
+<p><strong><sub>此文比我分享的任何代碼與創業項目都重要！其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，而科學和技術只是喫飯而已!</sub></strong></p>
+</blockquote>
+ </br>
+ </br>
+</li>
+</ul>
+<hr>
+</br>
+<h1 id="p-align%22center%22-%E5%AE%A2%E5%AE%B6%E6%AD%8C%E6%9B%B2%E6%AF%94%E8%83%A1%E8%A8%80%E4%BA%82%E8%AA%9E%E6%9B%B4%E6%9C%89%E5%89%8D%E6%99%AF-p"><p align="center"> <strong>客家歌曲比胡言亂語更有前景</strong>    </p></h1>
+<p align="center" style="font-size: small;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 阿柄</p>
+</br>
+<p>我不是什麼音樂磚家教授，更不是沒人性的野獸！鄙人只談談這這些年聽音樂的一點感想與心得！</p>
+<p>大道至明！大音至簡！</p>
+<p>學習學到一定程度，只要掌握了漁的方法，各行業應是一通百通，其中的道是相通的，你若有足夠的時間，很多你感興趣的未知你都可以探索。</p>
+<p>後悔太遲接觸到客家音樂。差點被那些國內客家敗家子的難聽山歌給誤導了，也難怪湖南衛視某主持人在說到客家歌時，也是模仿那個難聽的調！</p>
+<p>那個自詡無處不在的畜生也是總給我推薦難聽的客家歌曲（也好像越來越明白這個喜歡假大空又躲着見不得人的畜生是個什麼東西了！）。一些智障的客家人也在拍一些實質是嘲弄客家話的搞笑視頻，這幫智障的蠻屄傳人連自己的客家話都說不標準！畜生想誤導人時，就喜歡動用其力量嘲諷你，讓你明明手裏拿着玉卻不自信地視之爲石頭而丟掉了！</p>
+<p>直到自己慢慢搜索，才發現好多被埋沒的客家歌曲，當然還有分散各處的保留着更原汁原味的客家話！</p>
+<p>正宗客家話的溫柔婉轉內斂藏鋒與漢字的藏鋒是一個道！很幸運古代廣府話爲我們保留了比較完整的陰陽四韻（即他們說的六調十二聲，蠻屄理解不來裏面非常簡單的規律，學不來，所以改成了胡言亂語四不像的四聲，尤其是那第三聲，正常人說話都不會那樣說的，大家都當着入聲一樣說&quot;好&quot;，只有搞笑或是沒喫藥的時候才會發那個完整的“好”之第三聲！這智障的東西連這麼簡單的陰陽四韻都理解不來，真他媽的智障到讓人無語！想到這智障的東西教中國人幾百年來胡言亂語就來氣！）。</p>
+<p>客家話在設計上，和粵語類似，聲線比較飽和內斂婉轉，而胡言亂語比較似高亢的單音，聽着的感覺近孤獨，單調，因而對歌手的聲線要求比較高，才能彌補語言設計上的不足。客家話的設計是自帶柔聲濾波器，而胡言亂語則需要歌手的發音技巧讓聲音變得柔和！</p>
+<p>光說比較抽象，可以去youtube上找一個「離開的感情」同張雨生頂級歌手的「大海」對比着聽，前者是民間歌手，後者是殿堂大師，即使如此，對比之後，會發現後者「大海」明顯聽着比較孤獨！ 另外一首就是「至少還有妳」的客語翻唱，也是民間歌手對壘殿堂大師的聲音，前者聲線飽和內斂，後者很孤獨清亮！</p>
+<p>這是語言的問題！</p>
+<p>客語在填詞上可以非常生活化，跟山歌一樣靈活！ 真正可以做到詩經的風雅頌！ 比如客語小調之「五更歌」有點類似古詩詞的詞牌名，填不同的詞，聽不一樣的味道！又如客語版的「望春風」，無須名家唱都不遜原版的。你會發現好聽的客家歌曲，很好唱，不論是老傳統老山歌還是現代歌曲，真正做到大音至簡。多數人都能參與。</p>
+<p>可以說阿姆話才和漢語更配！你可以從很多中漢語的支流中找到共鳴，比如粵語，比如韓語，還有閩南話！當然說胡言亂語的人很容易聽懂客家話，那是因爲胡言亂語本來就以古代官話爲藍本修改而來的，只是這幫智障的理解不來漢字漢語的文化，胡亂改漢語，想發展出一套牠們的語言，用以取代牠們落後的語言。</p>
+</br>
+<p align="right"> 2023年1月26日 於韓國濟州島 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+
+</body>
+</html>
