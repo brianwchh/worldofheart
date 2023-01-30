@@ -351,6 +351,8 @@
 
         - [認清和正確使用文明的源頭——膣屄](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md.pdf)</font>
 
+        - [重語輕音是婉音的精髓](./md_and_html/客家話/重語輕音是婉音的精髓.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/重語輕音是婉音的精髓.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/重語輕音是婉音的精髓.md.pdf)</font>
+
         - [客家歌曲比胡言亂語更有前景](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.md.pdf)</font>
 
         - [阿姆話四方言](./md_and_html/客家話/阿姆話四方言.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/阿姆話四方言.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/阿姆話四方言.md.pdf)</font>

@@ -1,21 +1,20 @@
+***
+*我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！* 
+****
+- [<font size=3>跳轉到博客目錄頁面</font>](./tableOfContent.md)<---[<font size=2>在線閱讀</font>]&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;  <font size=2> [本地] ---></font><font size=3>[*_點擊此查看html網頁格式_*](./tableOfContent.html)&nbsp; &nbsp; [*_pdf格式_*](./tableOfContent.md.pdf)</font>
+****
+
 ### <p style="font-size: 23px; font-weight:900;">特別推薦文章</p>
 
-- [<font color=red>無眠月照無情門 . 失去自由的歌手</font>](https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md)<font size=1> <---[點擊此前往github在線閱讀]</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=1>本地模式---> &nbsp;[html網頁版](./md_and_html/無眠月照無情門.html) &nbsp;&nbsp;&nbsp; [pdf版本](./md_and_html/無眠月照無情門.md.pdf) </font>
+- [<font size=4 color=red>**鄧紫棋解解的小說——2507抬上帝入天坑** </font>](https://github.com/brianwchh/worldofheart/blob/main/md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp;  <font size=3>本地模式 --->&nbsp;[html網頁版](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html) &nbsp;&nbsp;&nbsp; [pdf版本](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf) </font>  
 
-    <div align=center>
+- [<font color=red>無眠月照無情門 . 失去自由的歌手</font>](https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E7%84%A1%E7%9C%A0%E6%9C%88%E7%85%A7%E7%84%A1%E6%83%85%E9%96%80.md)<font size=2> <---[點擊此前往github在線閱讀]</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=3>本地模式---> &nbsp;[html網頁版](./md_and_html/無眠月照無情門.html) &nbsp;&nbsp;&nbsp; [pdf版本](./md_and_html/無眠月照無情門.md.pdf) </font>
 
-    <sub>西子</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阿柄</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022年11月10日 於韓國濟州島</sub>
-
-    </div>
-
-
--  [心学心解 ](https://github.com/brianwchh/worldofheart/blob/main/md_and_html/%E5%BF%83%E5%AD%B8%E6%96%B0%E8%A7%A3.md)<font size=1><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size=1>本地模式 --->&nbsp;[html網頁版](./md_and_html/心學新解.html) &nbsp;&nbsp;&nbsp; [pdf版本](./md_and_html/心學新解.md.pdf) </font>
-
-    > **<sub>此文比我分享的任何代碼與創業項目都重要！其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，而科學和技術只是喫飯而已!</sub>**
-
-</br>
+    <p><font size=2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 西子</br></br>世人皆唱東坡詞，無人知我歌中淚。</br>胭脂淚痕君不見，肚藏淚酒君不知。</br>法律珠鍊人中鳳，舞臺深處天牢夢。</br>鍍金屠門千豬過，三寸魷魚萬人舔。</br>君入西子渡津口，她閱君腦千秋雪。</font></p>
+    
 
 ****
+
 
 - ###  <font size= 6> *_使用方法介紹_* </font>   
 
@@ -41,6 +40,7 @@
 
 
 * # 文章分類
+    - [<font color=red>鄧紫棋解解的小說——2507抬上帝入天坑</font>](#鄧紫棋解解的小說——2507抬上帝入天坑)
     - [一切因緣她(心學)](#一切因緣她)
     - [<font color=red>無眠月照無情門 . 失去自由的歌手</font>](#無眠月照無情門)
     - [天方夜譚之國策論](#天方夜譚之國策論)
@@ -50,10 +50,12 @@
     - [技術博客文章目錄](#技術博客文章目錄)
     - [客家話學習](#客家話學習)
     - [如何忽悠文科生編程](#如何忽悠文科生編程)
-  ***
 
 #### <p id="博客目錄"> <p/>  
 * # 博客目錄
+    #### <p id="鄧紫棋解解的小說——2507抬上帝入天坑"> <p/>
+    - [<font size=3>**鄧紫棋解解的小說——2507抬上帝入天坑**</font>](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font>
+
     #### <p id="一切因緣她"> <p/>
     #### 一切因緣她（心學）   
     - [心學心解](./md_and_html/心學新解.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/心學新解.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/心學新解.md.pdf)</font>
@@ -376,6 +378,8 @@
 
         - [認清和正確使用文明的源頭——膣屄](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/認清和正確使用文明的源頭——膣屄.md.pdf)</font>
 
+        - [重語輕音是婉音的精髓](./md_and_html/客家話/重語輕音是婉音的精髓.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/重語輕音是婉音的精髓.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/重語輕音是婉音的精髓.md.pdf)</font>
+
         - [客家歌曲比胡言亂語更有前景](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/客家歌曲比胡言亂語更有前景.md.pdf)</font>
 
         - [阿姆話四方言](./md_and_html/客家話/阿姆話四方言.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/阿姆話四方言.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/阿姆話四方言.md.pdf)</font>
@@ -422,6 +426,8 @@
 
 ---
 
+</br>
+
 # ****<p align="center" >心学心解</p>****
 <p align="center" style="font-size: large;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阿柄</p>
 
@@ -433,7 +439,7 @@
 
 - [前言](#前言)  
 - [<font color=red>**從鄧紫棋「泡沫」到紅海大姨媽的聖經使命——病毒前後中國的變化**</font>](#從「泡沫」到紅海大姨媽的聖經使命——病毒前後中國的變化)
-- [<font color=red>**鄧紫棋解解的小說——仙人戲珠的故事：「2507」**</font>](#鄧紫棋解解的小說在此——仙人戲珠的故事)
+- [<font color=red>**鄧紫棋解解的小說——抬上帝入天坑：「2507」**</font>](#鄧紫棋解解的小說——2507抬上帝入天坑)
 - [真理與真相](#真理與真相)  
 - [什麼是心學](#什麼是心學)  
 - [心學理解容易相信難](#心學理解容易相信難)  
@@ -441,7 +447,10 @@
 - [UFO是外星人给我们纠正认知的信号](#UFO是外星人给我们纠正认知的信号)  
 - [虛擬現實遊戲是虛擬宇宙的一種淺層體驗](#虛擬現實遊戲是虛擬宇宙的一種淺層體驗)  
 - [佛學之心與相](#佛學之心與相) 
-- [禪宗與心學之關係](#禪宗與心學之關係) 
+- [**禪宗與心學之關係**](#禪宗與心學之關係) 
+- [**疫情下的中國事件回顧**](#疫情下的中國事件回顧)
+- [**太平天國與全球主義精英的單極神政府**](#太平天國與全球主義精英的單極神政府)
+- [<font color=red>**病毒是深層政府之建立單極政權的祕密超限戰**</font>](#病毒是深層政府之建立單極政權的祕密超限戰)
 - [身相的控制模型：潛意識和心](#身相的控制模型：潛意識和心)  
 - [再來理解神秀慧能的禪宗偈](#再來理解神秀慧能的禪宗偈)   
 - [中國本是心學的國家](#中國本是心學的國家)  
@@ -449,6 +458,7 @@
 - [女性是文化的源頭](#女性是文化的源頭)  
 - [一個真正的人間，應該有以下七個基本標準](#一個真正的人間，應該有以下七個基本標準) 
 - [全球主義的單極世界深層政府是文明的墳墓](#全球主義的單極世界深層政府是文明的墳墓) 
+- [天人合一](#天人合一)
 - [知行合一](#知行合一)
 - [世界非如我們所見](#世界非如我們所見)
 - [既來之則安之](#既來之則安之)
@@ -527,20 +537,25 @@
 
     > <sub>此文比我分享的任何代碼與創業項目都重要！其中的發現關係到每一個人的方方面面。哲學比科學和技術更重要！哲學是人生，而科學和技術只是喫飯而已!</br></br>我們先入爲主的自傲是認知的屏障！認知是其本身最大的障礙！世界非如所見！真相和座標一樣依賴原點，沒有絕對，只有相對值！人類不知來源，亦不解天外飛碟（UFO），豈敢無知斷言我們所見所知是真相！他們一直在封鎖信息！人類是一種被洗腦很深的存在。</br></br>故，我懇請、懇求有機緣閱覽此文君，請先悟空，拋開偏見與傲慢，在你的百忙之中花點時間耐心閱讀此文和我其他一些文章，我相信你一定會得到不一樣的信息，而這些信息是他們拼命想掩蓋和污名化的。或許你也會發現，以前所執着的一些事情，其實沒那麼有意思了。如果我能成功發聲，很多人應該是通過我的一些技術或文章分享而來到這裏，所以你們也大概應該知道我是名工作十幾年的算法軟件工程師，我開源且做教程講解自己的前沿創業項目（3D攝像頭），也是爲了把我認爲很重要的信息送到諸君碗裏！</br></br>我不敢言所知是真相，但深知有分享之意非常義與義務！</br></br>君不知，《大魚海棠》上下兩集，埋着諸多三六九的符號、忽悠與冷笑話。真實的世界是另一番殘酷模樣。可又有多少人懷疑過從小到大的感官觸覺認知呢！直到那個隱藏的東西以某種方式讓你親身感知所謂神蹟的存在。而你卻無法證明之！說出來只能招來妄想症的嘲笑！被抹去記憶的人類，忘了起源，互相嘲笑着對方是神經病。美國歷屆總統在談及51區和外星人時，都統一口徑一開玩笑的模式回答，奧巴馬說牠們對我們有嚴格的控制，懂的人都懂，不懂的只能聽個笑話。川普要求解密51區檔案的要求也被拒絕。是否留意某國主席在某年某月國慶閱兵時，其旁邊跟着輛以前閱兵沒出現的“空車”。如果說，我也不知道如果是誰，只是如果說許你超能力，許你榮華富貴，許你宇宙超級大元帥，以及別人羨慕的才能和技藝，前提是變成一個心臟受控之人,或是留下朝夕之間能進千年牢籠的證據，好似某國元首下野之後總是能得此殊榮一樣，你願意嗎？只是如果說的，不要當真。隨着年歲與閱歷增長，越發體悟到「西遊記」不是一般的神作，猴子們自以爲聰明理解了那被打三下的意思。不懂仙桃林之三六九，也不明白何爲代價！復旦大學哲學系某教授說，人到四十還不知有命，是沒活透。天與命，不是祖上隨便流傳下來的，是真的存在。諸如屈原的《九歌》，即頌天。只是他不知“天若有情天亦老”爲何意！反而愚蠢歌詠之！</br></br>感謝你花時間閱讀，但獲知信息者也必須知：生命安全與信息同等重要！切莫以爲你所閱是兒戲，而忽視自身安全。他們對每個人腦中所思瞭如指掌，而要證明牠們的存在卻是非常困難。只勸君莫當這些文字是玩笑而不注意安全，莫貪天上掉餡餅，比如恰巧的投資機會，工作機會，等等發大財的機會，和生命安全相比，黃金比糞土還不值錢。切莫與之單獨相處，其話連一個標點都莫信！不管君信或不信我的真實故事，他們視機密數據信息貴重於你我之性命！請君把我的故事當笑話一樣傳閱出去，娛樂你的朋友，如此你就不會變成他們單獨長期跟蹤的目標。我的生活已破碎，也不在乎成爲你們茶餘飯後的笑話！我自也不圖這所謂的名利，如果可以和你角色互換，我寧願回到以前無人擾的創業時代，安心繼續做那些有成就感的技術創業。比起那些所謂的政商人物，我情願回自己村裏繼承祖業做一名心安的漁民。我一向極其厭惡陰謀狡作，拳拳真實心聲表於我諸多文字中，希望你能認同我所言，這些信息真的很重要！！！</br></br>倘若你境遇也如我一般不幸，請堅守本心本份，牢記古訓：姜太公釣魚，願者上鉤！也無須恐懼，似有規則，人淨且不被忽悠則鬼神難奈！？？？？？逃不掉無非一死重來！人之智商與之相比，實似螞蟻，近乎無。人須謙虛認清自身的不完美！</br></br>注意安全，保存火種，傳播信息！感恩她！也感恩你！</sub>
 
-  <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-  <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
     <div class="ImageWrapperFlex" >
     <div class="FlexSide"  ></div>
     <image class="FlexImage"   src='./images/dzq.png'/>
     <div class="FlexSide" ></div>
     </div>
-    <p align="center" style="margin:0px;"> 鄧紫棋,「it is good to be badk金魚臉鋼琴版本」<a href="https://youtu.be/Nsi1EB2HxvE"> https://youtu.be/Nsi1EB2HxvE</a> </p> 
-  </div> <!-- end pictureWrapper_div -->
 
-    [鄧紫棋解解的小說——仙人戲珠的故事：「2507」](#鄧紫棋解解的小說在此——仙人戲珠的故事)<sub><sub> <---點擊跳轉</sub></sub>,<sub>建議看完「心學心解」更能看懂這故事</sub>
+    <span  > **鄧紫棋**,<font size=5>[**「it is good to be bad (bad諧音back)，回來真好！#活着真好」</font>金魚臉鋼琴版本https://youtu.be/Nsi1EB2HxvE**](https://youtu.be/Nsi1EB2HxvE)</span> 
 
-  </br>     
+    </div> <!-- end pictureWrapper_div -->
 
+    </br>
+
+    # 
+
+    [鄧紫棋解解的小說——抬上帝入天坑：「2507」](#鄧紫棋解解的小說——2507抬上帝入天坑)<sub><sub> <---點擊跳轉</sub></sub>,<sub>建議看完「心學心解」更能看懂這故事</sub>
+
+    #
 
 
   <div align=right>
@@ -719,8 +734,12 @@
 
 - #### 禪宗與心學之關係 
 
-    你是否也曾覺很困擾：爲何陽明心學和禪宗有關係。  
-    其最有名一句話：只可意會，不可言傳！  
+    你是否也曾覺很困擾：***爲何陽明心學和禪宗有關係？***  
+    其最有名一句話：<u>**只可意會，不可言傳！** </u>    
+
+    > <sub>問： 爲何話不能明說？   
+      答： 你知，我知，**天知！地知！道有道有規則！人類不是完全自由的存在！！！你不知不等於那個控制人類進程的力量不存在**</sub>
+
     總理說地球只是一粒沙。
     想起某國駐以色列大使半夜心梗死於牀上的新聞。如有雷同，純屬巧合！   
     如果給你不爲人知的超能力，可以讀腦，大富大貴，前提是心臟被控制了，你願意當這樣的孫悟空嗎？你願意死一次戴上金箍圈嗎？或者你願意死一次當耶穌嗎？
@@ -730,15 +749,131 @@
 
     然而**心學不等於禪宗！** 心學是集儒釋道禪法等等學說之大成，其核心是漢字所傳載的文化，用文化規範行爲，用文化指導法，最重要的是用文化修心齊家平天下，並學會抬頭看天探究生命與未知，卻不屈從之！縱然我們智慧遠不及之，但我們的心卻是其所沒有的，我們在這裏只是修心的過客而已。心的旅程沒有終點。也正因爲不知終點，所以我們可以享受迷路的感覺。一出生就知道結局的人生才沒意思呢，就像劇透一樣。
 
+    </br> 
+
+    - 【金剛經】中千貳百五十(1250)=8（再見）是爲何意思？ 讀以下小說知答案： 
+
+        [鄧紫棋解解的小說——抬上帝入天坑：「2507」](#鄧紫棋解解的小說——2507抬上帝入天坑)<sub><sub> <---點擊跳轉</sub></sub>,<sub>建議看完「心學心解」更能看懂這故事</sub>
+
     <div align=right>
 
     [***<sub>返回文章目錄</sub>***](#文章目錄) 
 
     </div>
 
-#### <p id="身相的控制模型：潛意識和心"> <p/>
+#### <p id="疫情下的中國事件回顧"> <p/>
+
+- #### 疫情下的中國事件回顧  
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+    <div class="ImageWrapperFlex" >
+    <div class="FlexSide"  ></div>
+    <image class="FlexImage"   src='./images/96.jpg'/>
+    <div class="FlexSide" ></div>
+    </div>
+    <p align="center" style="margin:0px;"> 江澤民先生96大壽 </p> 
+    </div> <!-- end pictureWrapper_div -->
+
+    </br>
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+      <div class="ImageWrapperFlex" >
+      <div class="FlexSide"  ></div>
+      <image class="FlexImage"   src='./images/支援上海.jpeg'/>
+      <div class="FlexSide" ></div>
+      </div>
+
+    <span >  </span> 
+
+    </div> <!-- end pictureWrapper_div -->
+
+    </br>
+
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+      <div class="ImageWrapperFlex" >
+      <div class="FlexSide"  ></div>
+      <image class="FlexImage"   src='./images/神坑.png'/>
+      <div class="FlexSide" ></div>
+      </div>
+
+    <span > 一場疫情之後，中國從無神論之燒教堂、以及限制基督教到唱上帝『bubble」的紅海大坑？ 大家跟凳子棋一儕入坑不？ </span> 
+
+    </div> <!-- end pictureWrapper_div -->
+
+
+    </br>
+
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+      <div class="ImageWrapperFlex" >
+      <div class="FlexSide"  ></div>
+      <image class="FlexImage"   src='./images/黃山經濟會議.jpeg'/>
+      <div class="FlexSide" ></div>
+      </div>
+
+    <span > 2022年世界銀行組織官員在黃山召開世界經濟會議 </span> 
+
+    </div> <!-- end pictureWrapper_div -->
+
+
+
+#### <p id="太平天國與全球主義精英的單極神政府"> <p/>
 
 </br>
+
+- #### 太平天國與全球主義精英的單極神政府  
+
+    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
+    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
+      <div class="ImageWrapperFlex" >
+       <div class="FlexSide"  ></div>
+       <image class="FlexImage"   src='./images/太平天國節日.png'/>
+       <div class="FlexSide" ></div>
+      </div>
+
+    </br>
+
+    <span >**洪缺爹被他天父忽悠了，裏應外合成了另一種吳三桂！某些所謂的神選之民也是缺爹教的洪缺爹們，牠們控制着全球的主要的金融與資源，其所暗中推行的全球主義即天國單極政府，美其名曰人類的政府有爭端，神的統治很平靜！人人均等！** </span> 
+
+    </div> <!-- end pictureWrapper_div -->
+
+    <div align=right>
+
+    [***<sub>返回文章目錄</sub>***](#文章目錄) 
+
+    </div>
+
+</br>
+
+
+#### <p id="病毒是深層政府之建立單極政權的祕密超限戰"> <p/>
+
+</br>
+
+- #### 病毒是深層政府之建立單極政權的祕密超限戰  
+
+    不用我多說，稍微有點常識的人，都感覺出來了，病毒有點異常！ 
+    牠們在全球進行了一場超限戰爭，但全世界的青蛙都還在溫水中睡着！  
+    所有的政敵都在病毒死亡的掩蓋下在你眼前消失！而你卻還在讚賞歌詠牠們在保護你的生命！  
+    看看世界各國政治變化，你不難看出疫情之後的各個的變化。單極政府的政權是金融帝國的祕密政權！  
+    牠們敢於發動超限戰的前提是牠們掌控了多數國家的醫療政令系統，軍隊和法律系統！   
+    陽性是一種政治需求的陽性！數字化的金融世界就是說你是1就是1。牠們在全世界搞了一場牛刀小試的實戰，觀摩了羊羣的反應！  
+    笑果非常理想！一切都在牠們的預測之中！  
+
+    全世界都還在談吐一戰二戰，來預防三戰，可卻不知，稍微的一戰而二戰其暗線就是了三戰的世界格局之佈局！難怪牠們說，人類只要一思考，神就笑了！！！ 當下即是三戰，一場有神有鬼之詭異的超限戰，一場難以舉證的認知戰！
+
+    牠們在消滅和控制你，而你卻無法舉證！牠們說我門明明是在保護你，你怎麼能聽信別人的胡言亂語說我在害你呢！  
+
+    **這場超限戰，堪稱是經典，是第一次，也許也是最後一次！**   
+
+
+</br>
+
 
 - #### 身相的控制模型：潛意識和心  
 
@@ -947,7 +1082,20 @@
     [***<sub>返回文章目錄</sub>***](#文章目錄) 
 
     </div>
-    
+
+
+#### <p id="天人合一"> <p/>
+
+</br>
+
+- #### 天人合一
+    你以爲的你以爲其實不是你以爲的你以爲！  
+
+    孤立事件局部看是偶然，但在大的時間線和空間上連點成面，就能看出不一樣的畫面！   
+
+    **天書是無字無聲的，如人類給機器人發的指令，留意每個偶然事件點之間的聯繫，連點成面，想想每個起心動念或慾望背後的動機？是靈感？是陷阱？然後用心做選擇！以達所謂的天人合一！**
+
+
 #### <p id="知行合一"> <p/>
 
 </br>
@@ -1184,6 +1332,7 @@
 
     </div>   
 
+
     <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
     <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
       <div class="ImageWrapperFlex" >
@@ -1209,368 +1358,63 @@
 
 <div style="page-break-before: always ;"> </div>
 
-<p id="鄧紫棋解解的小說在此——仙人戲珠的故事"> </p>
+<p id="鄧紫棋解解的小說——2507抬上帝入天坑"> </p>
 
-- ## <font color=red>**_鄧紫棋解解的小說——仙人戲珠的故事：「2507」_**</font>
-
+- ## <font color=red>**_鄧紫棋解解的小說——抬上帝入天坑：「2507」_**</font>
     
-
-
-    # **<p align=center>2507</p>**
-
-    <p align=center><sub> 作者： 阿柄，2023年1月6日，於韓國濟州島</sub></p>
+    </br> 
     
+    </br> 
 
-    <div align=center>
-        
+    [<font size=4>**鄧紫棋解解的小說——2507抬上帝入天坑** </font>](https://github.com/brianwchh/worldofheart/blob/main/md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md)<font size=2><---[點擊此前往github在線閱讀]</font>&nbsp;&nbsp;  <font size=3>本地模式 --->&nbsp;[html網頁版](../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html) &nbsp;&nbsp;&nbsp; [pdf版本](../md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf) </font>
+ 
+    
     </br> 
     
     </br> 
     
-
-    #### **人生如四一，笑眼涵着淚。**
-
-    </div>
-    
-
-
-    ##### **<span><p align=center> 本故事純屬虛構！如有雷同，純屬巧合！鄙人發誓沒讀你腦：D</p></span>**
-    
-    </br>  
-
-    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-      <div class="ImageWrapperFlex" >
-      <div class="FlexSide"  ></div>
-      <image class="FlexImage"   src='./images/Gem2016.jpg'/>
-      <div class="FlexSide" ></div>
-      </div>
-      <p align="center" style="margin:0px;"> 鄧紫棋25專輯封面 </p> 
-    </div> <!-- end pictureWrapper_div -->
-
-
-    <div align=center>
-
     </br> 
     
-    **2507**
+    </br> 
 
-    大亞灣有座墳  
-    碑上有行字  
-    寫着他一生的全部  
+
+***
+ 
+#### <p id="視頻簡介"> <p/>  
+
+</br>
+
+- #### 點擊下面圖片播放視頻：
+   
+
+  <pre >
+
+
+        孤獨  
+
+        歲月不惜春，
+        轉眼蒼老已黃昏，    
+        未有夢裡相見歡，   
+        唯有亂世別離無奈恨，     
+        文章千古，難寫心如刀割。 
         
-    2507   
 
-    ***_-----&nbsp;。-----_***
+  </pre>
 
-    <sub><span>
-    淺水啞灣花不香，   
-    北燕南飛苦無聲。  
-    響水河畔有孤家，  
-    紅門長叩是誰開？
-    </span></sub>
+  </br>
 
-    <sub><span>
-    上聯： 大亞灣房不勝房   
-    下聯： 九洲人一室難求  
-    橫批： 房事春秋 </br></br>
-    土地，是中國人的智商！   
-    以前一畝三分地，栓着一家四代同堂。      
-    如今，幾十平米的水泥地板，綁着兩家三代拉磨的驢！</span></sub>   
+  [![Watch the video](./images/page.png)](https://youtu.be/bwtT80qa21o)   
 
-    </div>
-    </br>
 
-    <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-    <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-    <div class="ImageWrapperFlex" >
-    <div class="FlexSide"  ></div>
-    <image class="FlexImage"   src='./images/2507.png '/>
-    <div class="FlexSide" ></div>
-    </div>
-    <p align="center" style="margin:0px;">  </p> 
-    </div> <!-- end pictureWrapper_div -->
+  <p align="right"> 2022年11月28日 於韓國濟州島 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+  </div>
 
-    </br>
-
-    </br>
-
-    
-
-    </br>
-
-    </br>
-
-    - ### **前言**
-
-        </br>
-
-        </br>
-        
-        - <sub>***你相信有人是帶着前世今生的記憶來到這個世界的嗎？***</sub>    
-        - <sub>***你相信[平行世界](https://youtu.be/JW52KtyGMBI)嗎？***</sub>  
-        - <sub>***你相信讀腦的[超能力](https://youtu.be/-7uaa_ONFo0)嗎？***</sub>   
-        - <sub>***你知得麼？鬼（三）其實一直和我們共下生活在這個世界！但你卻一直當其係人（二）。***</sub>   
-        - <sub>***這個世界有許多難以證明的[不能說的祕密](https://youtu.be/ZZ9G2Vh06Rg)！***</sub> <sub>[我的祕密](https://youtu.be/8XcmT8-ZByA)</sub>  
-        - <sub>***我們對宇宙和生命的認識可謂少的可憐！無知、自負與傲慢卻膨脹如不知邊際的宇宙。***</sub> 
-
-        </br>
-
-        **神的陷阱都如姜太公釣魚，</br> 魚餌是我們自己的智商破解的信息。</br></br>  月亮很美，</br> 但一定要觀其背面，</br> 才不會只緣身在此山中！**   
-
-        </br>
-        
-        <div align="center">
-
-        > </br>**<p> 甜美的陷阱 </p>**</br>有一種陷阱</br>甜進心裡</br>暖化冰心</br>進入的時候</br>陶醉得像是</br>天下最俊美 最幸福的男子</br> 想出來的時候</br>才發現</br>卡住了命根</br>像極了一隻狗</br></br>  ***___  &nbsp; 。 ___*** </br> </br><sub>二變三的過程</sub></p></br>
-
-        </div>
-
-        </br>
-
-        
-        <div align="center">
-
-        > </br>**<p> 賞月的心 </p>**</br>一輪古月詩千篇</br>多少甜蜜的相思</br>灑落了人間</br>多少悽美的神話</br>伴隨着童年</br></br>而今</br> 隨着年歲的增長</br>賞月的心</br>不再只看其皎潔如雪</br>想到的更多是其</br>背後難言的滄桑 &nbsp; 與</br></br>黑暗</br></br> ***___  &nbsp; 。 ___*** </br></br> <sub>****曉心思****&nbsp; &nbsp; &nbsp;  </br></br>遠方有佳人，</br>殤心撫與琴。</br>****曲曲弦外音****，</br>句句相思雨。</br> 時空漣漪語，  </br>  阿哥可知矣？</br></sub></p></br>
-
-        </div>
-
-        <div align="center">
-
-        > </br>**<p> 世間若女子 </p>**</br>人是天生不完整的靈魂</br>我們於迷惘中</br>或等待</br>或尋覓</br>這世間若女子</br></br>她如生命的鑰匙</br> 開啓你的心門 &nbsp; 讓你 </br>望穿世間風雨</br>看懂人間情愛</br></br></br>這世間若女子</br></br> 因爲她的眼淚 </br>或澀 &nbsp; 或苦 &nbsp; 或甜</br>於是你的世界</br>有了多情</br>有了</br></br>七色彩虹</br> ***___  &nbsp; 。 ___*** </p></br>
-
-        </div>
-
-        誠如其在[「get everybody moving」](https://youtu.be/dVz-ZbA5urE)的演唱會中所言：並不只是想娛樂大家，更是希望大家能從中拿到一些重要嘅信息。
-        </br>
-        
-        此小說的目的亦是如斯！
-        </br>
-        
-        作爲小說，情節本身已超越大多的編劇。此編劇是主宰我們渺小一生的存在。只是無奈我是個蹩腳的說書人！
-        </br>
-        
-        總理說：地球只是一粒沙。
-        </br>
-        
-        這不是爲了上牀而發的哲理性文字，而是肺腑之實話。我是深深認同之，只是，就算來生我是帶着前世記憶的西絲，又或是引清兵入關的陳園園，也是不會和他上牀的，休想啊休想啊休想啊，除非給我很多很多很多錢。:) 
-        </br>
-        
-        我這卑微的一生，或許短命，沒做過什麼正經事，若有什麼價值，或許就是這般掙扎着努力發三兩聲言而已！前提是，這信息要能發的出去，且有人聽！  
-        </br>
-
-        但這已不在我的掌控之中了！ 
-        </br>
-        
-        若是被控制得連文字都無人問津，也只能安慰自己：努力過就好了，就權當是用文字自我療癒，和娛樂自家吧！誰讓我們是沙粒里的電子呢，做不了芯片，又成不了激光。
-        </br>
-        
-        ><sub>哎，可惜，地球是粒沙。哎，可惜，說着這麼有哲理~性的話，卻沒人陪我睡覺。哎~，可惜，我此生註定是沙粒中低等而孤單的存在。蒼天大地啊，我死不瞑目啊。這不公平啊！</sub> 
-        
-        </br> 
-
-        鑑於人類猴羣鍾意聽權威的聲音。後人都喜引經據典，用以佐證自己所言不孤且帶權威！權威如神，無法超越，所以人人都服拜！乖乖跪著！是故，古代不論東西方，領袖們都喜歡裝神弄鬼。
-        </br>
-
-        或曰：某神附體。
-        </br>
-        
-        一不小心假戲成了真，然後天空飄來祥雲，七彩的！奇蹟從此降臨！這奇蹟就像耶穌蜥蜴一樣，能鐵掌水上飄！像極了白日見鬼！這奇蹟又像白日碰到陳園園七仙女版本的“前女友”，只是這個像「1987年版本之她」的“她”不再吹簫了，而是改吹口琴了，滿屏的彈幕彷彿在說着：是想我嗎？想我嗎？我嗎？還是想聽我吹簫啊？想聽我吹簫啊？我吹簫啊？你在做夢啊！在做夢啊！做夢啊！這奇蹟又像紅海大姨媽一樣宏偉而波濤洶湧，這遭雷劈的，成了兩半！
-        </br>
-        
-        又或曰：朕乃九五之尊！ 
-        </br>    
-        
-        九爲神，五爲零至九之第五個數，用人話講就是：朕是真命天子，是你爸，上面那個是你爺。所以東方出了個缺爹教，然後又流傳到了西方。現在又像烏龜一樣，暗地裏要漸漸地爬來到中國，這片神奇的夢幻後花園，無數商女隔江不知羞恥地唱着後庭花。洪秀全那缺爹的，曾經被他天爹當作爲棋子忽悠過一次，成了另一種吳三跪！裏應外合！  
-        </br>
-        
-        爲了避免混淆，這裏強調下，爺之前漢字是指爸爸之意，如沒大姨媽的<<花木蘭>>中所言：什麼什麼個個有爺名。不是她爸爸的爸爸，而是她親爸上榜了，要充軍。而我們客家鄉民依然還保留着漢語正確的用法，稱父母爲爺哀，哀是哀哩（語氣詞），及母親，哀同愛，帶有憐憫哀傷的莫過於愛子如母了，故而用哀來代母之意，這個在《呂氏春秋》後註里有應正。而爺就是大爺，在家裏裝大爺的。客語里稱爺爺奶奶是另一種古漢語的叫法。好了，腳踩西瓜皮，滑出了[「單行的軌道」](https://youtu.be/rwrYO8S1wX4)了! 總之就是提醒各位，不管什麼權威說的，要認清自己的爸爸和爸爸的爸爸，膝蓋和脖子不要缺鈣！
-        </br>
-
-        關於命、天與前世今生。有位上海復旦大學的哲學系教授曾說，人到四十還不知道有命，是沒有活通透，很多人不是第一次來地球。這個網上有視頻，不是我假借專家附體來忽悠你們。也如某些信缺爹教的人跟我說的：人的生和死都是神的安排！
-        </br>
-
-        換着以前，我肯定不信！只是碰到的偶然太多了，也就慢慢懷疑和修改了自己的認知。也慢慢開始認識到了世界的另一面。
-        </br>
-
-        不信？
-        </br>
-
-        我且給各位羅列出許多發生在我身上的、不是我能選擇的偶然！ 從我的名字和出生日期開始。
-        </br>
-        
-        > <sub>小注： 因爲我不是作家，只係個沒工作，也不知道明天的人，我同時還在寫一些技術編程等教程，錄一些視頻教程，以期吸引一些有緣人士來看這些信息。生不由己，生命如"做一天鍾，撞一天和尚" ：D 。一個要飯程序猿的文字功夫也有限，沒有「紅樓夢」作者的才華。但我已經很努力在修煉文字的「葵花寶典」了，畢竟，文字不好，很難吸引住各位觀衆挑剔的眼光。只是實在時間和精力都有限，故所，這裏更多地是一種提供素材的方式，期待有才華的人去繼續完成。若我有幸得剩餘時間，會慢慢填補細節，且潤色之。</sub> 
-
-        </br>
-
-        我叫伍成和，福建龍岩上杭人氏，客家人，父親是木匠，叫伍其昌，同時也是打漁的，凳子木匠其和我都是五短身材，我約摸166釐米，他沒到老年縮骨之前，應也是和我差不多身高。
-        </br>
-
-        <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-        <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-        <div class="ImageWrapperFlex" >
-        <div class="FlexSide"  ></div>
-        <image class="FlexImage"   src='./images/dadandme.png '/>
-        <div class="FlexSide" ></div>
-        </div>
-        <p align="center" style="margin:0px;"> 2012年夏天我與父親攝於於深圳世界之窗 </p> 
-        </div> <!-- end pictureWrapper_div --> 
-
-        遺憾理科生沒有朱自清的文筆，寫不來凳子木其的背影，2020年清明前後，因覺有幾年沒回國去他的墳頭了，心裏念起他，於是寫了篇「憶父親」的文字。
-        </br>
-
-        <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-        <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-        <div class="ImageWrapperFlex" >
-        <div class="FlexSide"  ></div>
-        <image class="FlexImage_fther"   src='./images/憶父親.png '/>
-        <div class="FlexSide" ></div>
-        </div>
-        <p align="center" style="margin:0px;"> 憶父親 </p> 
-        </div> <!-- end pictureWrapper_div -->
-
-        其實，我真名，或說我本名叫伍金和，五歲時因村里同名人去世，父母覺得不吉利，於是改名爲現在這名字。我出生於1983年3月2日，農曆正月18..。屬豬，金魚座，從小是個放牛娃。在道生一，一生二，二生三，三生無窮的數字里，我應該還是二，只愛平凡，未變成上帝之兵三。我不稀罕什麼三，六，九([**18...**](https://youtu.be/9GYRtpvUMnI))。他也別指望有機會。
-        </br>
-
-        
-        <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-        <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-        <div class="ImageWrapperFlex" >
-        <div class="FlexSide"  ></div>
-        <image class="FlexImage"   src='./images/18.png'/>
-        <div class="FlexSide" ></div>
-        </div>
-        <p align="center" style="margin:0px;">  </p> 
-        </div> <!-- end pictureWrapper_div --> 
-
-        我大學同學給我一個外號，就是歷史上家喻戶曉且響噹噹的大人物：伍大郎！好討厭那個窩囊沒用的阿餅哥啊，他爲什麼也那麼矮。偏巧的是，我家也有一個金蓮，只是要反過來讀，她叫伍蓮金，家里排行第二，不幸的是約莫五歲左右幫我三姐洗尿布時不慎掉入村裏的河裏。因爲她走了，所以作爲排行老四的我出生在這個家裏。此生我若有什麼幸福的話，那都是建立在她的不幸之上的。或許是木匠其內疚，給我取名叫金和，諧音金荷，蓮花即荷花。
-        </br>
-
-        順帶普及一些客家人對家裏小孩乳名的叫法。如果我大姐還在，父母一般叫她細(sei）嫲，第三個，如果是男孩，就叫三（哥），女的就叫三（妹子/頭嫲），或男女都叫一個字：三，第四個，同三，四哥，四妹子，男女也可一個字：四。如果是最小一個，還可以叫四屘（man）。屘：最末尾的孩子。
-        </br>
-
-        <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-        <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-        <div class="ImageWrapperFlex" >
-        <div class="FlexSide"  ></div>
-        <image class="FlexImage"   src='./images/大郎喫藥.jpg '/>
-        <div class="FlexSide" ></div>
-        </div>
-        <p align="center" style="margin:0px;">  </p> 
-        </div> <!-- end pictureWrapper_div --> 
-
-
-        <div align="center"> <!-- div_1-->
-
-
-        > <sub><span> </br> **家園在眼淚里** </br></br>漂泊多時</br>真希望能</br>安心寫寫代碼</br>胡亂塗鴉</br>偶爾附庸風雅</br></br>一座農舍</br>一杯咖啡</br>一盞清茶</br>幾許綠色</br>蟬鳴鳥歡</br>伴着雨後泥土的清香</br>或許還有那麼一灣小溪</br> 牛郎的童年</br>依然還在那裡流淌著</br>只是仍然還沒有她的下凡</br></br> 遠離了那片土地</br>聽不到無聲的哭泣</br>簡陋的文字</br>寫不了十幾億</br>肚裡的眼淚</br></br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2019年 於臺灣<span></sub>
-
-        </div> <!-- end of div_1-->
-
-        如果有[任意門](https://youtu.be/_LtFhZtTBAk)，一按就能像天外飛仙UFO一樣穿越時空，然後又以另一種方式重新成爲一家人，那該多好。一個現代的伍大郎與潘金蓮的愛情故事。呵呵呵，想的真美！我還是戴上墨鏡拉二胡算了。客家話里形容這種看不見的人爲白(pak)目傀。
-        </br>
-
-        有人說，生命里每一個出現的人，都是該出現的，或好或壞，都是來啓示你的，這些人一儕在我彈指飛灰間的生命里寫下了一部《啓四錄》。
-        </br>
-
-        話說，在藍色的[612星球](https://youtu.be/4V1K9d7fmHg)古老的東方國家，降生了一位織女(歌)星，時間剛好是農曆7月7日，七巧節，牛郎織女相會的好日子。陽曆爲8月16日，翻譯出來就是bye7(再見妻)。雖然是五短身材，卻天生神力，極能喊，2013年吹着七彩[泡沫](https://youtu.be/GHXr4bBxHCo)華麗登場，因而才被我們多數大陸仔所熟知。她叫鄧紫棋，喜歡騎凳子。也喜歡搞怪做金魚嘴，這玩金魚的梗和[「大魚海棠」](https://youtu.be/YirEm4rwYMo)的神坑電影有的一拼。更是自稱蓮花舌天下無敵，她會彈吉他和鋼琴，會不會吹簫就不得而知，但看過她蓮花舌視頻的，大概都會驚歎，難以企及，只能望棋項背，吹簫於她，自然也應該是響指之間！更何況其有名言：只要功夫深，什麼都能磨成繡花針。她這高產似母豬的工作效率，也讓人覺得像是有[兩個自己](https://youtu.be/9drLLoyt_bc)，像機器人一樣晝夜輪番上崗。講真，我也好希望有兩個自己，有福我享，有難他當，多好？！（另外推薦歌曲[兩個你](https://youtu.be/qj5k19iT63A)）
-        </br>
-
-        
-        後來方知，凳子棋是其藝名。其本名是鄧詩穎，穎乃禾頁（荷葉）也，頁乃頭也。說人話就係禾麥尖尖也。荷葉之尖尖不亦蓮花耶？ ：）。說來也巧，我兒名詩遠，'穎'與'遠'普通話發音雖相差十萬八千里，客家話和粵語發音卻是挺相似。詩遠他表哥叫子琪。且不管巧合，就漢字本身而言是不是很有意思！
-        </br>
-
-
-        有一句話，或許應該成爲名言：***你以爲的你以爲其實不是你以爲的你以爲。***  
-        </br>
-
-
-        你以爲你按照自己的意願和靈光的靈感做了有什麼值得你驕傲的創造，只有某天你遠觀之，才會明白：*你以爲的你以爲其實不是你以爲的你以爲。*  
-        </br>
-
-
-        至人無己，神人無功，聖人無名！有一種至聖的存在就是不存在！不論你是污之，蔑之，辱之，亦或頂禮膜拜並歌詠之，她都是一種[「不存在的存在」](https://youtu.be/F6tfZvLSDqc)。***<sub>[克隆人存在嗎？我望着你，但你卻已經不是你，只是像你而已！]</sub>***  
-
-        </br>
-
-        就像專門做揭露的Q組織所言，這世界沒有偶然。從起心動念到一切，皆是安排。 
-        </br>
-
-
-        別人的隨機，在一些人眼裏是一種安排。就如之前我剛寫完一些殭屍的文字，然後一個約莫5歲左右的小孩，很自然地在我面前突然跳起了殭屍步伐。這讓我想起某缺爹教成員對我說的話，他說，你只要喊牠的名字，牠聽得見，牠會以某種方式回應你。呵呵，缺爹的他爹的！  
-        </br>
-
-        只是當局者的我們很少去做統計與連點成面。隨機與偶然次數多了，再蠢的猴子，也該知道了，更何況是自詡有智商的人。
-        </br>
-        
-        同樣有一個讓我不安的巧合是，2022年3月21日桂林奇怪的飛機事故，因爲我媽媽的生日剛好是那天。 
-        </br>     
-
-        只是，請務必謹記：<u>*不要恐懼，反正我們又不是第一次死！神坑都跟大姨媽的紅海一樣，遭雷劈的，自己以爲有智商破解了信號，然後自己挖坑自己跳進去的。堅持本份！不要和牠們比智商，我們都是來這裏做客的，我們是來這裏修心的！*</u>  
-        </br>
-
-        這世界沒有什麼醒來不醒來，沒什麼現實或夢境，因爲我們不知道原點在哪裏，自然不知道哪一層才是醒，哪一層是做夢。
-        </br>
-
-        心的旅程不知道終點。或許只有過程。
-
-        </br>
-
-        - ### ***純娛樂八卦一下***  
-
-
-            <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-            <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-            <div class="ImageWrapperFlex" >
-            <div class="FlexSide"  ></div>
-            <image class="FlexImage"   src='./images/ariel.png'/>
-            <div class="FlexSide" ></div>
-            </div>
-
-            ***<p align="center" style="margin:0px;">2018年3月30日臺灣新生代歌手告別過去的自己，簽約新公司，迎接美好的未來 vs 2018年GEM爲了擺脫經紀人的約束成立自己的工作室，不惜和老東家打官司，一場疫情之後，2022帶着大姨媽的紅海奇蹟簽約新公司,更名Gloria。那個2021年她不得不面對，卻依然要潛下去的是什麼深淵？</p>*** 
-
-            </div> <!-- end pictureWrapper_div --> 
-
-            </br>
-
-
-        - ### ***一點純文學的聯想***   
-
-            昨日看「聊齋志異」，一些細思令人驚訝的細節！  
-
-            其中最有共鳴就是鬼兒子作畫，大腦靈感思維被控制的情節，這不正和自己經歷過的被催眠的症狀很像麼！大腦一片混沌，昏昏沉沉隨時能進入睡眠狀態，連上一秒在想什麼都不記得，字連不成詞，甚至手連一個字都寫不成，腦子就像是個跑飛的程序，不知道自己當下要做什麼和在做什麼。這種跨越幾百年的巧合。要知道在那個年代，連腦控都沒聽過，作者卻能寫得像是現代腦科專家一樣。 
-
-            其中閻王集體收人的戲臺場景，貌似的意外火災，實似早有的安排！說得陰謀論一些就是獻祭！這與韓國最近的[「黎泰院Class - " Start "」鋼琴曲](https://youtu.be/6APbFKSOITQ)黎泰院踩踏事件，還有油輪傾覆事件，再有就是中國3.21飛機莫名墜機事件。懂得的人似乎都應該看懂了！
-
-            <!-- image area, flex to make it center,it may not work for github, for html and pdf rendering only -->
-            <div align="center" style="page-break-inside: avoid; margin-top:1px; margin-bottom:1px;"> <!-- pictureWrapper_div add this only to make the bendan github understand -->
-             <div class="ImageWrapperFlex" >
-              <div class="FlexSide"  ></div>
-              <image class="FlexImage"   src='./images/OneButton.jpg'/>
-              <div class="FlexSide" ></div>
-             </div>
-             <p align="center" style="margin:0px;"> One Button 「楚門的世界」</p> 
-             </br>
-            </div>
-
-            爲何作者知道心是人的根本，變聰明不是一直認爲都是要換大腦嗎？何以作者在那個年代就知道心比腦更重要。
-
-
-            </br>
-
-        [正文]() <sub> 待續 </sub>
-
-        </br>
-
-
-
+     
     <div align=right>
 
     [***<sub>返回文章目錄</sub>***](#文章目錄) 
 
     </div>
-
 
 ***
  
