@@ -21,7 +21,7 @@
 * # 博客目錄
 
     #### <p id="鄧紫棋解解的小說——2507抬上帝入天坑"> <p/>
-    - [<font size=3>**鄧紫棋解解的小說——2507抬上帝入天坑**</font>](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font>
+    - [<font size=5>**鄧紫棋解解的小說——2507抬上帝入天坑**</font>](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font>
 
     #### <p id="一切因緣她"> <p/>
     - #### 一切因緣她（心學）   

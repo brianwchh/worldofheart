@@ -39,16 +39,13 @@
 
 #
 
--   <p style="font-size: 40px; font-weight: 900; page-break-inside: avoid;"> 博客目錄 </p> 
-  -  [**_<font size=4>點擊此跳轉至目錄頁面（雜文隨筆，創業項目FPGA源碼、編程技術教程，客家話學習等等）</font>_**](./tableOfContent.md)<font size=2><--[github在線閱讀只能用markdown版本]</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=2>[下載至本地閱覽推薦網頁和pdf版本]--> </font><font size=4>[**_點擊此查看html網頁格式_**](./tableOfContent.html)&nbsp; &nbsp; [**_pdf格式_**](./tableOfContent.md.pdf)</font>
+-  # <p style="font-size: 40px; font-weight: 900; page-break-inside: avoid;"> 博客目錄 </p> 
+   [**_<font size=4>點擊此跳轉至目錄頁面（雜文隨筆，創業項目FPGA源碼、編程技術教程，客家話學習等等）</font>_**](./tableOfContent.md)<font size=2><--[github在線閱讀只能用markdown版本]</font> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size=2>[下載至本地閱覽推薦網頁和pdf版本]--> </font><font size=4>[**_點擊此查看html網頁格式_**](./tableOfContent.html)&nbsp; &nbsp; [**_pdf格式_**](./tableOfContent.md.pdf)</font>
 
 </br>
 </br>
 
 --- 
-
-- # <p style="font-size: 35px; font-weight: 900; "> 部分博客目錄預覽 </p> 
-
 
 * # 文章分類
     - [<font color=red>鄧紫棋解解的小說——2507抬上帝入天坑</font>](#鄧紫棋解解的小說——2507抬上帝入天坑)
@@ -62,10 +59,10 @@
     - [客家話學習](#客家話學習)
     - [如何忽悠文科生編程](#如何忽悠文科生編程)
 
-#### <p id="博客目錄"> <p/>  
-* # 博客目錄
+#### <p id="部分博客目錄預覽"> <p/>  
+* # 部分博客目錄預覽
     #### <p id="鄧紫棋解解的小說——2507抬上帝入天坑"> <p/>
-    - [<font size=3>**鄧紫棋解解的小說——2507抬上帝入天坑**</font>](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font>
+    - [<font size=5>**鄧紫棋解解的小說——2507抬上帝入天坑**</font>](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/鄧紫棋解解的小說——2507抬上帝入天坑.md.pdf)</font>
 
     #### <p id="一切因緣她"> <p/>
     #### 一切因緣她（心學）   
