@@ -379,6 +379,9 @@
         * [智障蠻屄改漢語的一些規律](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/智障蠻屄改漢語的一些規律.md.pdf)</font>
 
         * [各地客語能交流當神奇](./md_and_html/客家話/各地客語能交流當神奇.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/各地客語能交流當神奇.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/各地客語能交流當神奇.md.pdf)</font>
+
+        * [細妹恁靚](./md_and_html/客家話/細妹恁靚.md)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <font size=1>[*_點擊此查看html網頁格式_*](./md_and_html/客家話/細妹恁靚.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/客家話/細妹恁靚.md.pdf)</font>
+        
         
         
 
