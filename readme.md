@@ -124,6 +124,8 @@
         - [模塊化汽車電池管理系統](./md_and_html/書生論國事/模塊化汽車電池管理系統.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/書生論國事/模塊化汽車電池管理系統.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/書生論國事/模塊化汽車電池管理系統.md.pdf)</font>
 
         - [縣級聯邦](./md_and_html/書生論國事/縣級聯邦.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/書生論國事/縣級聯邦.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/書生論國事/縣級聯邦.md.pdf)</font>
+
+        - [在槍面前法律才能人人平等](./md_and_html/書生論國事/在槍面前法律才能人人平等.md) &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <font size=1> [*_點擊此查看html網頁格式_*](./md_and_html/書生論國事/在槍面前法律才能人人平等.html)&nbsp; &nbsp; [*_pdf格式_*](./md_and_html/書生論國事/在槍面前法律才能人人平等.md.pdf)</font>
         
 
     #### <p id="創業知識與技術分享"> <p/>
