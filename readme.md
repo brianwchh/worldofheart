@@ -1,3 +1,5 @@
+## 由於失誤提交了太多的pdf文件，致使文件夾過大超過了2G，不便下載，請至此下載不含pdf版本的文件：[https://github.com/brianwchh/worldofheart_v2](https://github.com/brianwchh/worldofheart_v2)
+
 ***
 *我所分享之文章及程序等等皆免費，無版權，歡迎如實轉載與分享，只須標明出處即可！感恩同行有你！* 
 ****
